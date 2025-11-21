@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+*.pt
+data/raw/*
+*.sqlite3
+.DS_Store
+.env
