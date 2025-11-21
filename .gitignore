@@ -4,7 +4,6 @@ __pycache__/
 *.pkl
 *.h5
 *.pt
-data/raw/*
 *.sqlite3
 .DS_Store
 .env
