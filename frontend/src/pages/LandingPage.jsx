@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Brain, User, Clock, FileText, Cpu, BarChart3, ArrowRight } from 'lucide-react';
+import { Brain, User, Clock, FileText, Cpu, BarChart3, ArrowRight, Check, X, Plus, Minus } from 'lucide-react';
 
 const LandingPage = () => {
+  const [isAnnual, setIsAnnual] = useState(false);
+  const [openFaq, setOpenFaq] = useState(0);
+
+  const faqs = [
+    {
+      question: "Ödeme yöntemleriniz nelerdir?",
+      answer: "Tüm yaygın kredi kartları ve banka kartları ile güvenli bir şekilde ödeme yapabilirsiniz. Ödeme altyapımız uluslararası güvenlik standartlarına uygundur."
+    },
+    {
+      question: "Aboneliğimi istediğim zaman iptal edebilir miyim?",
+      answer: "Evet, aboneliğinizi taahhüt süresi olmaksızın istediğiniz zaman panelinizden iptal edebilirsiniz. İptal sonrası, mevcut dönem sonuna kadar kullanım hakkınız devam eder."
+    },
+    {
+      question: "Yıllık planın avantajı nedir?",
+      answer: "Yıllık plan, aylık ödemeye göre %10 daha ekonomiktir ve tüm yıl boyunca kesintisiz erişim sağlar. Ayrıca fiyat değişikliklerinden etkilenmezsiniz."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50 font-sans text-gray-900">
       {/* Navbar */}
@@ -12,20 +30,17 @@ const LandingPage = () => {
             <div className="bg-blue-600 p-1.5 rounded-lg">
                 <Brain className="text-white w-5 h-5" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-gray-900">LGS AI</span>
+            <span className="font-bold text-xl tracking-tight text-gray-900">LGS Tahmin</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
             <a href="#features" className="hover:text-blue-600 transition-colors">Özellikler</a>
             <a href="#pricing" className="hover:text-blue-600 transition-colors">Fiyatlandırma</a>
-            <a href="#about" className="hover:text-blue-600 transition-colors">Hakkımızda</a>
+            <a href="#faq" className="hover:text-blue-600 transition-colors">SSS</a>
           </div>
           
           <div className="flex items-center gap-3">
             <Link to="/login" className="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors shadow-sm hover:shadow-md">
-              Kayıt Ol
-            </Link>
-            <Link to="/login" className="bg-gray-100 text-gray-700 px-5 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors">
               Giriş Yap
             </Link>
           </div>
@@ -85,7 +100,7 @@ const LandingPage = () => {
               Sınav Başarınızı En Üst Düzeye Çıkarın
             </h2>
             <p className="text-gray-600 text-lg">
-              LGS AI, modern teknolojiyi kullanarak öğrencilere benzersiz bir hazırlık deneyimi sunar.
+              LGS Tahmin, modern teknolojiyi kullanarak öğrencilere benzersiz bir hazırlık deneyimi sunar. 
               İşte sizi başarıya taşıyacak temel özelliklerimiz:
             </p>
           </div>
@@ -128,7 +143,7 @@ const LandingPage = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 bg-gray-50 border-b border-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Nasıl Çalışır?</h2>
@@ -192,23 +207,205 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section id="pricing" className="bg-gray-50 py-24">
+        <div className="container mx-auto px-6">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Sana En Uygun Planı Seç</h2>
+            <p className="text-gray-600 text-lg mb-10">
+              LGS 2026'ya en iyi tahminlerle hazırlanarak rakiplerinin önüne geç.
+            </p>
+
+            {/* Toggle */}
+            <div className="bg-white p-1 rounded-full inline-flex border border-gray-200">
+              <button 
+                onClick={() => setIsAnnual(false)}
+                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${!isAnnual ? 'bg-white shadow-sm text-gray-900' : 'text-gray-500 hover:text-gray-900'}`}
+              >
+                Aylık
+              </button>
+              <button 
+                onClick={() => setIsAnnual(true)}
+                className={`px-6 py-2 rounded-full text-sm font-semibold transition-all ${isAnnual ? 'bg-white shadow-sm text-gray-900' : 'text-gray-500 hover:text-gray-900'}`}
+              >
+                Yıllık (%10 İndirimli)
+              </button>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            
+            {/* Basic Plan */}
+            <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition-shadow flex flex-col">
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-gray-900">Temel</h3>
+                <div className="flex items-end gap-1 mt-4">
+                    <span className="text-4xl font-extrabold text-gray-900">₺{isAnnual ? '890' : '99'}</span>
+                    <span className="text-gray-500 mb-1">{isAnnual ? '/yıl' : '/ay'}</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-4">Bireysel öğrenciler için harika bir başlangıç.</p>
+              </div>
+              
+              <div className="space-y-4 mb-8 flex-1">
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">100 Soru Tahmini</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Temel Analizler</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Standart Destek</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-400">
+                    <X size={18} className="flex-shrink-0" />
+                    <span className="text-sm line-through">Deneme Sınavları (Kısıtlı)</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-400">
+                    <X size={18} className="flex-shrink-0" />
+                    <span className="text-sm line-through">Çoklu Kullanıcı Erişimi</span>
+                </div>
+              </div>
+
+              <button className="w-full bg-gray-50 text-gray-900 font-semibold py-3 rounded-xl hover:bg-gray-100 transition-colors">
+                Planı Seç
+              </button>
+            </div>
+
+            {/* Pro Plan (Popular) */}
+            <div className="bg-white p-8 rounded-3xl shadow-xl border-2 border-blue-600 relative flex flex-col scale-105 z-10">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide">
+                En Popüler
+              </div>
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-gray-900">Pro</h3>
+                <div className="flex items-end gap-1 mt-4">
+                    <span className="text-4xl font-extrabold text-gray-900">₺{isAnnual ? '1790' : '199'}</span>
+                    <span className="text-gray-500 mb-1">{isAnnual ? '/yıl' : '/ay'}</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-4">Hedeflerini yükselten ciddi öğrenciler için.</p>
+              </div>
+              
+              <div className="space-y-4 mb-8 flex-1">
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">500 Soru Tahmini</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Detaylı Performans Analizi</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Öncelikli Destek</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Tüm Deneme Sınavları</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-400">
+                    <X size={18} className="flex-shrink-0" />
+                    <span className="text-sm line-through">Çoklu Kullanıcı Erişimi</span>
+                </div>
+              </div>
+
+              <button className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-blue-200">
+                Hemen Abone Ol
+              </button>
+            </div>
+
+            {/* Premium Plan */}
+            <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition-shadow flex flex-col">
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-gray-900">Premium</h3>
+                <div className="flex items-end gap-1 mt-4">
+                    <span className="text-4xl font-extrabold text-gray-900">₺{isAnnual ? '2690' : '299'}</span>
+                    <span className="text-gray-500 mb-1">{isAnnual ? '/yıl' : '/ay'}</span>
+                </div>
+                <p className="text-sm text-gray-500 mt-4">Sınırsız potansiyel, en iyisini isteyenler için.</p>
+              </div>
+              
+              <div className="space-y-4 mb-8 flex-1">
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Sınırsız Soru Tahmini</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Gelişmiş Analizler</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">7/24 Özel Destek</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Tüm Deneme Sınavları</span>
+                </div>
+                <div className="flex items-center gap-3">
+                    <Check size={18} className="text-green-500 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">Çoklu Kullanıcı Erişimi (5 kullanıcı)</span>
+                </div>
+              </div>
+
+              <button className="w-full bg-gray-50 text-gray-900 font-semibold py-3 rounded-xl hover:bg-gray-100 transition-colors">
+                Planı Seç
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="bg-white py-24">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <span className="text-blue-600 font-semibold tracking-wider uppercase text-sm">Sıkça Sorulan Sorular</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Aklınızda Soru Kalmasın</h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-4">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-gray-50 rounded-2xl overflow-hidden transition-all duration-300">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === index ? -1 : index)}
+                  className="w-full flex items-center justify-between p-6 text-left font-bold text-gray-900 hover:bg-gray-100 transition-colors"
+                >
+                  {faq.question}
+                  {openFaq === index ? <Minus size={20} className="text-blue-600" /> : <Plus size={20} className="text-gray-400" />}
+                </button>
+                <div 
+                  className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${openFaq === index ? 'max-h-40 pb-6 opacity-100' : 'max-h-0 opacity-0'}`}
+                >
+                  <p className="text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="bg-white py-12 border-t border-gray-100">
+      <footer className="bg-gray-50 py-12 border-t border-gray-100">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="bg-blue-600 p-1.5 rounded-lg">
                 <Brain className="text-white w-5 h-5" />
             </div>
-            <span className="font-bold text-xl text-gray-900">LGS AI</span>
+            <span className="font-bold text-xl text-gray-900">LGS Tahmin</span>
           </div>
           
           <div className="flex gap-8 text-sm text-gray-500">
+            <a href="#" className="hover:text-gray-900">Hizmet Şartları</a>
             <a href="#" className="hover:text-gray-900">Gizlilik Politikası</a>
-            <a href="#" className="hover:text-gray-900">Kullanım Koşulları</a>
           </div>
           
           <div className="text-sm text-gray-400">
-            &copy; 2024 LGS AI. Tüm hakları saklıdır.
+            &copy; 2024 LGS Tahmin. Tüm hakları saklıdır.
           </div>
         </div>
       </footer>
