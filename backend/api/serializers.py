@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
-from model_service.models import Prediction
+from model_service.models import TopicAnalysis
 
 User = get_user_model()
 
@@ -26,8 +26,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         )
         return user
 
-class PredictionSerializer(serializers.ModelSerializer):
+class TopicAnalysisSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Prediction
-        fields = ('id', 'question_text', 'predicted_category', 'created_at')
-
+        model = TopicAnalysis
+        fields = ('id', 'subject', 'topic_name', 'relevance_score', 'user_proficiency', 'recommendation', 'created_at')

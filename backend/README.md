@@ -1,63 +1,75 @@
 # LGS Soru Tahmini — Backend (Django)
 
-**Özet:** Bu dizin, projenin Django backend uygulamasını barındırır. Aşağıda geliştirme ortamında projeyi çalıştırmak için gerekli adımlar verilmektedir.
+**Özet:** Bu dizin, projenin Django backend uygulamasını barındırır. Kullanıcı verilerini ve tahminleri yönetmek için Django kullanılır. Veritabanı olarak karma bir yapı (SQLite + MongoDB) desteklenir.
 
 **Gereksinimler:**
 - Python 3.10 veya üzeri
 - `git`
 - `virtualenv` veya `venv` desteği
+- (Opsiyonel) MongoDB (Lokalde veya Atlas üzerinde çalışan)
 
 **Hızlı Başlangıç (macOS / zsh)**
 
 1. `backend` dizinine gidin:
+   ```bash
+   cd backend
+   ```
 
 2. Sanal ortam oluşturun ve etkinleştirin:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
 
-   `python3 -m venv .venv`
-   `source .venv/bin/activate`
+3. Bağımlılıkları yükleyin:
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
 
-3. Bağımlılıkları yükleyin (lokal `requirements.txt` kullanılır):
+4. Veritabanı Ayarları:
+   - **SQLite (Varsayılan):** Kullanıcı hesapları (Auth) ve ilişkisel veriler için kullanılır.
+   - **MongoDB (Opsiyonel):** Büyük veri setleri veya loglama işlemleri için `pymongo` ile yapılandırılmıştır.
 
-   `pip install --upgrade pip`
-   `pip install -r requirements.txt`
+   Eğer MongoDB kullanacaksanız `.env` dosyasına şu değişkenleri ekleyin:
+   ```env
+   MONGODB_URI=mongodb://localhost:27017/
+   MONGODB_DB_NAME=lgs_tahmin_db
+   ```
 
-4. Veritabanı göçlerini uygulayın (varsayılan SQLite kullanılır):
+5. Veritabanı göçlerini uygulayın:
+   ```bash
+   python manage.py migrate
+   ```
 
-   `python manage.py migrate`
+6. (Opsiyonel) Yönetici hesabı oluşturun:
+   ```bash
+   python manage.py createsuperuser
+   ```
 
-5. (Opsiyonel) Yönetici hesabı oluşturun:
+7. Geliştirme sunucusunu başlatın:
+   ```bash
+   python manage.py runserver
+   ```
 
-   `python manage.py createsuperuser`
-
-6. Geliştirme sunucusunu başlatın:
-
-   `python manage.py runserver`
-
-   - Farklı bir port kullanmak için: `python manage.py runserver 8001`
-
-7. Tarayıcıda `http://127.0.0.1:8000/` adresini açın.
+8. Tarayıcıda `http://127.0.0.1:8000/` adresini açın.
 
 **Ortam Değişkenleri ve Ayarlar**
 - Gizli anahtarlar veya üretim ayarları için `backend/lgs_project/settings.py` dosyasını inceleyin. `.env` veya `python-dotenv` kullanıyorsanız ortam dosyasını proje köküne yerleştirin ve uygun şekilde yükleyin.
 
-**Veritabanı**
-- Varsayılan olarak `db.sqlite3` kullanılır. Farklı bir DB (Postgres, MySQL) kullanacaksanız `backend/lgs_project/settings.py` içindeki `DATABASES` ayarlarını ve gerekli sürücüleri (`psycopg2-binary` vs.) ekleyin.
+**Veritabanı Yapısı**
+- **Relational (SQLite):** `CustomUser`, `Token`, `Session` gibi kimlik doğrulama verileri.
+- **NoSQL (MongoDB):** Tahmin geçmişi ve büyük veri analizleri için konfigüre edilebilir (`api/views.py` içinde `pymongo` kullanılarak).
 
 **Model Servisi**
-- `model_service` uygulaması makine öğrenmesi kodlarını barındırır. Eğer modelleri yeniden eğitmek veya çalıştırmak isterseniz, ek bağımlılıklar gerekebilir (ör. TensorFlow veya PyTorch). Bu paketleri yalnızca ihtiyaç halinde `requirements.txt`'e ekleyin.
+- `model_service` uygulaması makine öğrenmesi kodlarını barındırır. 
 
 **Testler**
 - Mevcut testleri çalıştırmak için:
-
-  `python manage.py test`
-
-**Yayına Alma Notları (kısa)**
-- Üretim için `DEBUG=False` yapın ve `ALLOWED_HOSTS` değerlerini ayarlayın.
-- Gunicorn + ters proxy (nginx) kombinasyonu yaygın bir yaklaşımdır. `gunicorn` `requirements.txt`'e eklidir.
+  ```bash
+  python manage.py test
+  ```
 
 **Sorun Giderme**
 - `ModuleNotFoundError`: Sanal ortam aktif mi ve `pip install -r requirements.txt` çalıştırıldı mı kontrol edin.
 - Migration hataları: `python manage.py makemigrations` sonra `migrate` deneyin.
-
-**Ek Bilgi**
-- Proje kökünde ayrıca bir `requirements.txt` bulunur; ortak bağımlılıklar oraya eklenmiş olabilir. `backend/requirements.txt` backend'e özgü paketleri içerir.

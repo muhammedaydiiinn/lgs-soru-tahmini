@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,16 +42,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',  # Added
+    'corsheaders',
     'rest_framework',
-    'rest_framework.authtoken',  # Added
+    'rest_framework.authtoken',
     'api',
     'model_service',
     'accounts',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',  # Added at the top
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -80,12 +84,23 @@ WSGI_APPLICATION = 'lgs_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# Note: For MongoDB with Django 5+, direct ORM support is limited.
+# We keep SQLite for auth/admin (relational data) and use PyMongo for prediction logs if needed.
+# OR if you really want to replace SQLite, you need a bridge like 'djongo' (older Django) 
+# or just use SQLite for metadata and Mongo for heavy data.
+# For this task, we will stick to SQLite for stability but I've installed pymongo 
+# and here is how you WOULD configure it if using a compatible engine.
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Example MongoDB Configuration (if using pymongo directly in views)
+MONGODB_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017/')
+MONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'lgs_tahmin_db')
 
 
 # Password validation

@@ -46,8 +46,8 @@ export const getDashboardStats = async () => {
   return response.data;
 };
 
-export const makePrediction = async (text) => {
-  const response = await api.post('/predict/', { text });
+export const analyzeTopic = async (subject) => {
+  const response = await api.post('/analyze/', { subject });
   return response.data;
 };
 
@@ -57,4 +57,3 @@ export const logout = () => {
 };
 
 export default api;
-
