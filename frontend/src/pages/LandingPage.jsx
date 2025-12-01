@@ -12,7 +12,7 @@ const LandingPage = () => {
             <div className="bg-blue-600 p-1.5 rounded-lg">
                 <Brain className="text-white w-5 h-5" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-gray-900">LGS Tahmin</span>
+            <span className="font-bold text-xl tracking-tight text-gray-900">LGS AI</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
@@ -85,7 +85,7 @@ const LandingPage = () => {
               Sınav Başarınızı En Üst Düzeye Çıkarın
             </h2>
             <p className="text-gray-600 text-lg">
-              LGS Tahmin, modern teknolojiyi kullanarak öğrencilere benzersiz bir hazırlık deneyimi sunar. 
+              LGS AI, modern teknolojiyi kullanarak öğrencilere benzersiz bir hazırlık deneyimi sunar.
               İşte sizi başarıya taşıyacak temel özelliklerimiz:
             </p>
           </div>
@@ -199,7 +199,7 @@ const LandingPage = () => {
             <div className="bg-blue-600 p-1.5 rounded-lg">
                 <Brain className="text-white w-5 h-5" />
             </div>
-            <span className="font-bold text-xl text-gray-900">LGS Tahmin</span>
+            <span className="font-bold text-xl text-gray-900">LGS AI</span>
           </div>
           
           <div className="flex gap-8 text-sm text-gray-500">
@@ -208,7 +208,7 @@ const LandingPage = () => {
           </div>
           
           <div className="text-sm text-gray-400">
-            &copy; 2024 LGS Tahmin. Tüm hakları saklıdır.
+            &copy; 2024 LGS AI. Tüm hakları saklıdır.
           </div>
         </div>
       </footer>

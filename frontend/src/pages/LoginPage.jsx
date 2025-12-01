@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Sparkles, Eye, EyeOff, Brain } from 'lucide-react';
+import { login } from '../services/api';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -9,13 +10,23 @@ const LoginPage = () => {
     username: '',
     password: ''
   });
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically handle the API call to login
-    console.log('Login attempt:', formData);
-    // For demo purposes, redirect to dashboard
-    navigate('/dashboard');
+    setError(null);
+    setLoading(true);
+    
+    try {
+      await login(formData.username, formData.password);
+      navigate('/dashboard');
+    } catch (err) {
+      console.error(err);
+      setError('Giriş başarısız. Kullanıcı adı veya şifre hatalı.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -33,17 +44,24 @@ const LoginPage = () => {
           </p>
         </div>
 
+        {/* Error Message */}
+        {error && (
+          <div className="bg-red-50 text-red-600 p-3 rounded-lg text-sm mb-4 text-center">
+            {error}
+          </div>
+        )}
+
         {/* Form Section */}
         <form onSubmit={handleSubmit} className="space-y-6">
           
           {/* Username/Email Field */}
           <div className="space-y-2">
             <label className="text-sm font-medium text-gray-900 block">
-              E-posta veya Kullanıcı Adı
+              Kullanıcı Adı
             </label>
             <input
               type="text"
-              placeholder="ornek@email.com"
+              placeholder="Kullanıcı adınız"
               className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all text-gray-600 placeholder:text-gray-400"
               value={formData.username}
               onChange={(e) => setFormData({ ...formData, username: e.target.value })}
@@ -85,9 +103,10 @@ const LoginPage = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-sm hover:shadow-md"
+            disabled={loading}
+            className={`w-full bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-sm hover:shadow-md ${loading ? 'opacity-70 cursor-not-allowed' : ''}`}
           >
-            Giriş Yap
+            {loading ? 'Giriş Yapılıyor...' : 'Giriş Yap'}
           </button>
 
           {/* Divider (Optional but looks nice) */}
@@ -111,4 +130,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-

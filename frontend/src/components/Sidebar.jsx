@@ -19,7 +19,7 @@ const Sidebar = () => {
             <BookOpen size={24} />
         </div>
         <div>
-            <h1 className="font-bold text-gray-800 text-lg leading-tight">LGS Tahmin</h1>
+            <h1 className="font-bold text-gray-800 text-lg leading-tight">LGS AI</h1>
             <span className="text-xs text-gray-500">Paneli</span>
         </div>
       </div>

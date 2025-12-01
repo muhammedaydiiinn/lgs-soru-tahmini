@@ -1,21 +1,51 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Brain, Eye, EyeOff } from 'lucide-react';
+import { register } from '../services/api';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
-    fullName: '',
+    username: '',
     email: '',
     password: '',
-    confirmPassword: ''
+    firstName: '',
+    lastName: ''
   });
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Register attempt:', formData);
-    navigate('/dashboard');
+    setError(null);
+    setLoading(true);
+    
+    try {
+      // Map frontend fields to backend serializer fields
+      const apiData = {
+        username: formData.username,
+        email: formData.email,
+        password: formData.password,
+        first_name: formData.firstName,
+        last_name: formData.lastName
+      };
+      
+      await register(apiData);
+      // Redirect to login after successful registration
+      navigate('/login');
+    } catch (err) {
+      console.error(err);
+      if (err.response && err.response.data) {
+          // Show specific error from backend if available
+          const errors = Object.values(err.response.data).flat();
+          setError(errors.join(' '));
+      } else {
+          setError('Kayıt başarısız. Lütfen tekrar deneyin.');
+      }
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -33,20 +63,27 @@ const RegisterPage = () => {
           </p>
         </div>
 
+        {/* Error Message */}
+        {error && (
+          <div className="bg-red-50 text-red-600 p-3 rounded-lg text-sm mb-4 text-center">
+            {error}
+          </div>
+        )}
+
         {/* Form Section */}
         <form onSubmit={handleSubmit} className="space-y-5">
           
-          {/* Full Name */}
+          {/* Username */}
           <div className="space-y-2">
             <label className="text-sm font-medium text-gray-900 block">
-              Ad Soyad
+              Kullanıcı Adı
             </label>
             <input
               type="text"
-              placeholder="Ahmet Yılmaz"
+              placeholder="kullaniciadi"
               className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all text-gray-600 placeholder:text-gray-400"
-              value={formData.fullName}
-              onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
+              value={formData.username}
+              onChange={(e) => setFormData({ ...formData, username: e.target.value })}
               required
             />
           </div>
@@ -106,9 +143,10 @@ const RegisterPage = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-sm hover:shadow-md"
+            disabled={loading}
+            className={`w-full bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-sm hover:shadow-md ${loading ? 'opacity-70 cursor-not-allowed' : ''}`}
           >
-            Kayıt Ol
+            {loading ? 'Kayıt Yapılıyor...' : 'Kayıt Ol'}
           </button>
 
           {/* Login Link */}
@@ -125,4 +163,3 @@ const RegisterPage = () => {
 };
 
 export default RegisterPage;
-

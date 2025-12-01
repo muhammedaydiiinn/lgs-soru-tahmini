@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Plus, ArrowRight } from 'lucide-react';
+import { getDashboardStats, makePrediction } from '../services/api';
 
 const StatCard = ({ title, value, extra, type }) => {
   return (
@@ -14,26 +15,48 @@ const StatCard = ({ title, value, extra, type }) => {
 };
 
 const Dashboard = () => {
-  const stats = [
-    { title: 'Kalan Tahmin Hakkı', value: '12', extra: '', type: 'neutral' },
-    { title: 'Toplam Tahmin', value: '8', extra: '', type: 'neutral' },
-    { title: 'Başarı Oranı', value: '82%', extra: '', type: 'success' },
-    { title: 'Abonelik', value: 'Pro', extra: '', type: 'neutral' },
-  ];
+  const [stats, setStats] = useState(null);
+  const [predictions, setPredictions] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [user, setUser] = useState(null);
 
-  const recentPredictions = [
-    { id: '#T84H12', date: '12 Mayıs 2024', subject: 'Matematik', topic: 'Üslü İfadeler', status: 'Tamamlandı', statusColor: 'bg-green-100 text-green-700' },
-    { id: '#G56J89', date: '10 Mayıs 2024', subject: 'Fen Bilimleri', topic: 'DNA ve Genetik Kod', status: 'Tamamlandı', statusColor: 'bg-green-100 text-green-700' },
-    { id: '#K23L45', date: '8 Mayıs 2024', subject: 'Türkçe', topic: 'Paragrafta Anlam', status: 'Tamamlandı', statusColor: 'bg-green-100 text-green-700' },
-    { id: '#P98O76', date: '5 Mayıs 2024', subject: 'İngilizce', topic: 'Simple Present Tense', status: 'Hatalı', statusColor: 'bg-red-100 text-red-700' },
-  ];
+  useEffect(() => {
+    const userData = localStorage.getItem('user');
+    if (userData) {
+      setUser(JSON.parse(userData));
+    }
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const data = await getDashboardStats();
+      setStats(data.stats);
+      setPredictions(data.recent_predictions);
+    } catch (error) {
+      console.error("Error fetching dashboard data:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (loading) {
+      return <div className="text-center p-10">Yükleniyor...</div>;
+  }
+
+  const statCards = stats ? [
+    { title: 'Kalan Tahmin Hakkı', value: stats.usage_quota, extra: '', type: 'neutral' },
+    { title: 'Toplam Tahmin', value: stats.total_predictions, extra: '', type: 'neutral' },
+    { title: 'Başarı Oranı', value: stats.success_rate, extra: '', type: 'success' },
+    { title: 'Abonelik', value: stats.subscription_plan, extra: stats.is_subscribed ? 'Aktif' : 'Pasif', type: 'neutral' },
+  ] : [];
 
   return (
     <div className="space-y-8">
       {/* Welcome Section */}
       <div className="flex justify-between items-end">
         <div>
-            <h1 className="text-3xl font-bold text-gray-900">Hoş Geldiniz, Ahmet!</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Hoş Geldiniz, {user?.username || 'Kullanıcı'}!</h1>
             <p className="text-gray-500 mt-2">LGS 2026 tahminlerinize buradan başlayın.</p>
         </div>
         <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 shadow-md transition-all">
@@ -44,7 +67,7 @@ const Dashboard = () => {
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {stats.map((stat, index) => (
+        {statCards.map((stat, index) => (
           <StatCard key={index} {...stat} />
         ))}
       </div>
@@ -60,29 +83,37 @@ const Dashboard = () => {
                     <tr>
                         <th className="px-6 py-4">Tahmin ID</th>
                         <th className="px-6 py-4">Tarih</th>
-                        <th className="px-6 py-4">Ders</th>
-                        <th className="px-6 py-4">Konu</th>
+                        <th className="px-6 py-4">Soru (Özet)</th>
+                        <th className="px-6 py-4">Tahmin</th>
                         <th className="px-6 py-4">Durum</th>
                         <th className="px-6 py-4"></th>
                     </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-100">
-                    {recentPredictions.map((item) => (
-                        <tr key={item.id} className="hover:bg-gray-50 transition-colors">
-                            <td className="px-6 py-4 font-medium text-gray-900">{item.id}</td>
-                            <td className="px-6 py-4">{item.date}</td>
-                            <td className="px-6 py-4">{item.subject}</td>
-                            <td className="px-6 py-4">{item.topic}</td>
-                            <td className="px-6 py-4">
-                                <span className={`px-3 py-1 rounded-full text-xs font-medium ${item.statusColor}`}>
-                                    {item.status}
-                                </span>
-                            </td>
-                            <td className="px-6 py-4 text-right">
-                                <button className="text-blue-600 hover:text-blue-800 font-medium text-sm">Detaylar</button>
+                    {predictions.length > 0 ? (
+                        predictions.map((item) => (
+                            <tr key={item.id} className="hover:bg-gray-50 transition-colors">
+                                <td className="px-6 py-4 font-medium text-gray-900">#{item.id}</td>
+                                <td className="px-6 py-4">{new Date(item.created_at).toLocaleDateString('tr-TR')}</td>
+                                <td className="px-6 py-4 truncate max-w-xs">{item.question_text.substring(0, 50)}...</td>
+                                <td className="px-6 py-4">{item.predicted_category}</td>
+                                <td className="px-6 py-4">
+                                    <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">
+                                        Tamamlandı
+                                    </span>
+                                </td>
+                                <td className="px-6 py-4 text-right">
+                                    <button className="text-blue-600 hover:text-blue-800 font-medium text-sm">Detaylar</button>
+                                </td>
+                            </tr>
+                        ))
+                    ) : (
+                        <tr>
+                            <td colSpan="6" className="px-6 py-8 text-center text-gray-500">
+                                Henüz hiç tahmin yapmadınız.
                             </td>
                         </tr>
-                    ))}
+                    )}
                 </tbody>
             </table>
         </div>
@@ -92,4 +123,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
