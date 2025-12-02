@@ -6,9 +6,10 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework import generics
 from django.contrib.auth import get_user_model
 import random
+from datetime import datetime
 
-from model_service.models import TopicAnalysis
 from .serializers import UserSerializer, RegisterSerializer, TopicAnalysisSerializer
+from lgs_project.db_utils import get_topic_analyses_collection
 
 User = get_user_model()
 
@@ -43,14 +44,32 @@ class DashboardStatsAPIView(APIView):
     
     def get(self, request):
         user = request.user
-        analyses = TopicAnalysis.objects.filter(user=user)
-        total_analyses = analyses.count()
+        collection = get_topic_analyses_collection()
         
-        # Mock improvements (e.g., total topics mastered)
-        mastered_topics = analyses.filter(user_proficiency__gte=80).count()
+        # Fetch from MongoDB
+        mongo_query = {"user_id": user.id}
+        cursor = collection.find(mongo_query).sort("created_at", -1)
         
-        recent_analyses = analyses.order_by('-created_at')[:5]
-        recent_serializer = TopicAnalysisSerializer(recent_analyses, many=True)
+        # Convert cursor to list
+        analyses_list = list(cursor)
+        total_analyses = len(analyses_list)
+        
+        # Mock improvements calculation
+        mastered_topics = sum(1 for a in analyses_list if a.get('user_proficiency', 0) >= 80)
+        
+        # Prepare recent analyses for frontend (Top 5)
+        recent_analyses = []
+        for doc in analyses_list[:5]:
+            # Convert ObjectId to string if needed, or just map fields
+            recent_analyses.append({
+                "id": str(doc["_id"]),
+                "subject": doc["subject"],
+                "topic_name": doc["topic_name"],
+                "relevance_score": doc["relevance_score"],
+                "user_proficiency": doc["user_proficiency"],
+                "recommendation": doc["recommendation"],
+                "created_at": doc["created_at"]
+            })
         
         return Response({
             "stats": {
@@ -60,7 +79,7 @@ class DashboardStatsAPIView(APIView):
                 "subscription_plan": user.subscription_plan,
                 "is_subscribed": user.is_subscribed
             },
-            "recent_analyses": recent_serializer.data
+            "recent_analyses": recent_analyses
         })
 
 class AnalyzeTopicAPIView(APIView):
@@ -68,14 +87,12 @@ class AnalyzeTopicAPIView(APIView):
 
     def post(self, request):
         subject = request.data.get("subject") # e.g. Matematik
-        # In a real app, we might take user's past quiz scores or nothing to suggest from scratch
         
         # Check quota
         if request.user.usage_quota <= 0:
             return Response({"error": "Analiz hakkınız doldu. Paketinizi yükseltin."}, status=403)
 
         # Logic: The model predicts which topics are high-yield for LGS 2026
-        # This is dummy logic simulation
         possible_topics = {
             "Matematik": ["Üslü İfadeler", "Kareköklü İfadeler", "Doğrusal Denklemler", "Veri Analizi"],
             "Fen Bilimleri": ["Mevsimler ve İklim", "DNA ve Genetik Kod", "Basınç", "Madde ve Endüstri"],
@@ -89,8 +106,8 @@ class AnalyzeTopicAPIView(APIView):
         topic = random.choice(possible_topics.get(selected_subject, ["Genel Analiz"]))
         
         # Simulated AI results
-        relevance = random.randint(70, 99) # How likely it is to appear
-        proficiency = random.randint(20, 90) # User's simulated current level (or from input)
+        relevance = random.randint(70, 99)
+        proficiency = random.randint(20, 90)
         
         strategies = [
             "MEB örnek sorularına ağırlık ver.",
@@ -100,19 +117,26 @@ class AnalyzeTopicAPIView(APIView):
         ]
         rec = random.choice(strategies)
 
-        # Save to database
-        analysis = TopicAnalysis.objects.create(
-            user=request.user,
-            subject=selected_subject,
-            topic_name=topic,
-            relevance_score=relevance,
-            user_proficiency=proficiency,
-            recommendation=rec
-        )
+        # Save to MongoDB instead of SQLite
+        analysis_doc = {
+            "user_id": request.user.id,
+            "subject": selected_subject,
+            "topic_name": topic,
+            "relevance_score": relevance,
+            "user_proficiency": proficiency,
+            "recommendation": rec,
+            "created_at": datetime.now().isoformat()
+        }
+        
+        collection = get_topic_analyses_collection()
+        result = collection.insert_one(analysis_doc)
             
-        # Decrement quota
+        # Decrement quota (User model is still in SQLite)
         request.user.usage_quota -= 1
         request.user.save()
 
-        serializer = TopicAnalysisSerializer(analysis)
-        return Response({"analysis": serializer.data, "remaining_quota": request.user.usage_quota})
+        # Prepare response
+        analysis_doc["id"] = str(result.inserted_id)
+        del analysis_doc["_id"] # Remove ObjectId for JSON serialization
+
+        return Response({"analysis": analysis_doc, "remaining_quota": request.user.usage_quota})
