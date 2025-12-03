@@ -1,0 +1,226 @@
+{
+  "year": 2020,
+  "course": "Türkçe",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yazar, çocukluk ve ilk gençlik yıllarını yoksulluk içinde geçirmesine rağmen azim ve iradesi sayesinde her türlü engeli aşmak suretiyle Türk ilim ve kültür hayatının kendisiyle daima iftihar ettiği örnek bir ilim insanı olmuştur.\nBu cümledeki numaralanmış sözcüklerin anlamca karşılıkları aşağıdakilerin hangisinde verilmiştir?",
+      "options": [
+        "A) direnme gücü — amacıyla — gururlanmak",
+        "B) kararlılık — yoluyla — kıvanç duymak",
+        "C) gayret — isteğiyle — saygı göstermek",
+        "D) cesaret — şartıyla — iltifat etmek"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "text": "(I) Bizim memlekette dağ taş, orman ağaç hayatın hikâyesini anlatır.\n(II) Toprak burada ustanın elinden çıkmış bir çinidir, desen desen. (III) Toprak verimlidir; kuru çubuk diksen meyve verir, salkım salkım. (IV) Portakallar dallarında birer güneştir, turuncu turuncu.\nBu metinde numaralanmış cümlelerin hangilerinde aynı söz sanatı kullanılmıştır?",
+      "options": [
+        "A) I ve III",
+        "B) I ve IV",
+        "C) II ve III",
+        "D) II ve IV"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "text": "Bir sanatçıya, gazetecilerle yaptığı sohbet sırasında gazetecinin biri \"Efendim, uzun süredir yeni bir eser vermiyorsunuz. Yoksa düşüncelerinizin üzerine kar mı yağdı?\" diye sordu. Bunun üzerine sanatçı \"Kışın yağan kar, toprağı örterek bitkileri şiddetli soğuktan korur. Toprağın altındaki bitki ve hayvanlar ilkbahara hazırlanır. Karlar eridiğinde tüm canlılıklarıyla hayatlarına devam eder. Evet, benim düşüncelerimin üzerine kar yağdı.\" şeklinde cevap verdi.\nBu metinde sanatçının \"Evet, benim düşüncelerimin üzerine kar yağdı.\" sözüyle anlatmak istediği aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Sanatçılar ürettikçe var olur, bu yüzden her zaman ortaya koyacakları bir eserleri olmalıdır.",
+        "B) Eser üretmekte zorlanan sanatçılar, sanat güçlerini gittikçe kaybederler.",
+        "C) Sanatçılar verimsiz bir dönemde gibi görünseler de yeni eserleri için zihinlerinde hazırlık yaparlar.",
+        "D) Düşünce kısırlığı çeken sanatçılar, düşüncelerini zenginleştirmek için çok iyi gözlem yapmalıdır."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "text": "Kartepe Kayak Merkezi, yüksekliği 1606 metre olan bir tepenin zirvesinin altında kurulmuştur.\n• Kartepe Kayak Merkezi kış aylarında yoğun bir ziyaretçi akınına uğruyor.\nBu iki cümlenin anlamca doğru bir biçimde birleştirilmiş hâli aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Kartepe Kayak Merkezi yoğun ziyaretçi akınına uğrayan, yüksekliği 1606 metre olan bir tepenin zirvesinin altında kış aylarında kurulmuştur.",
+        "B) Yoğun bir ziyaretçi akınına uğrayan Kartepe Kayak Merkezi, kış aylarında yüksekliği 1606 metre olan bir tepenin zirvesinin altında kurulmuştur.",
+        "C) Yüksekliği 1606 metre olan bir tepenin zirvesinin altında kurulan Kartepe Kayak Merkezi, kış aylarında yoğun bir ziyaretçi akınına uğruyor.",
+        "D) Bir tepenin zirvesinin altında kurulan Kartepe Kayak Merkezi, yüksekliği 1606 metre olduğundan kış aylarında yoğun bir ziyaretçi akınına uğruyor."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "text": "Bir projenin başarıya ulaşmasında birçok etken vardır. En başta proje kapsamında çalışacak her bir elemanın, yapacağı işle ilgili üst düzey bilgi birikimine sahip olması gerekir. Bu, çıkacak sorunların hızla çözülmesinde ve projenin sorunsuz ilerlemesinde önemli bir etkendir. Proje çalışanlarının birbiriyle uyumlu ve eş zamanlı çalışması da projenin sağlıklı yürümesi için çok önemlidir. Bunlarla birlikte maliyete ve takvime uygun bir çalışmanın yapılması da gerekir.\nAşağıdakilerden hangisi bir projede çalışacak kişilerin bu metinde verilen özelliklerinden değildir?",
+      "options": [
+        "A) Liderlik edebilme",
+        "B) Planlı çalışabilme",
+        "C) Ekip çalışması yapabilme",
+        "D) Alanında uzman olma"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "text": "Sudenaz Hanım şirkette hafta boyunca yapacağı planlama, denetleme, personel alımı ve raporlama işleri için şekildeki gibi bir tablo hazırlamıştır. Yapacağı işleri tabloya yerleştirirken işlerin etki derecesini ve uygulama kolaylığını göz önünde bulundurmuştur. Bunları da şu şekilde belirlemiştir:\n• Planlama: Uygulanması zor ve etkisi yüksek\n• Raporlama: Uygulanması zor ve etkisi düşük\n• Personel alımı: Uygulanması kolay ve etkisi yüksek\n• Denetleme: Uygulanması kolay ve etkisi düşük\nSudenaz Hanım'ın bir hafta içinde yapacağı işler şunlardır:\nI. Şirketin son üç aylık durumunu ortaya koymak amacıyla üretim-satış verilerine ilişkin grafik ve tablolar hazırlamak (Raporlama)\nII. Aksaklık olup olmadığını görmek amacıyla fabrikadaki işleyişi kontrol etmek (Denetleme)\nIII. Hangi işin, ne zaman yapılacağına dair bir çizelge hazırlamak (Planlama)\nIV. Şirketin ihtiyacı doğrultusunda, iş başvurusunda bulunan adayların öz geçmiş formlarını incelemek (Personel alımı)\nBu bilgilere göre Sudenaz Hanım'ın yaptığı İş Planı Tablosu aşağıdakilerden hangisidir?",
+      "options": [
+        "A) IV - III / II - I (Yüksek-Kolay: IV, Yüksek-Zor: III, Düşük-Kolay: II, Düşük-Zor: I)",
+        "B) I - IV / III - II (Yüksek-Kolay: I, Yüksek-Zor: IV, Düşük-Kolay: III, Düşük-Zor: II)",
+        "C) III - I / IV - II (Yüksek-Kolay: III, Yüksek-Zor: I, Düşük-Kolay: IV, Düşük-Zor: II)",
+        "D) IV - II / III - I (Yüksek-Kolay: IV, Yüksek-Zor: II, Düşük-Kolay: III, Düşük-Zor: I)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "text": "Yapılan bir ankette, sorulara verilen cevapların yüzdesi grafiklerde gösterilmiştir.\n• Yapay zekâya mı, insan zekâsına mı daha çok güvenirsiniz?\n(Çalışanlar: İnsan zekâsı %73, Yapay zekâ %27 / Öğrenciler: İnsan zekâsı %74, Yapay zekâ %26)\n• Yapay zekânın günümüzde pek çok işi insanın yerine yapıyor olması sizi endişelendiriyor mu?\n(Çalışanlar: Hayır %59, Evet %41 / Öğrenciler: Hayır %47, Evet %53)\nAşağıdakilerden hangisi bu grafiklerin raporlaştırılmış hâlidir?",
+      "options": [
+        "A) Araştırma sonucuna göre çalışanlar yapay zekâya öğrencilerden çok güvenmektedir. Çalışanlar öğrencilere göre yapay zekânın, işleri insanın yerine yapmasından daha çok endişe duymaktadır.",
+        "B) Yapılan araştırmaya göre insan zekâsına, çalışanlar öğrencilerden daha çok güvenmektedir. İşleri insanın yerine yapay zekânın yapıyor olmasında ise öğrenciler çalışanlardan daha endişelidir.",
+        "C) Araştırma sonuçlarına bakıldığında hem çalışanların hem de öğrencilerin yapay zekâya insan zekâsından çok güvendiği görülür. Ancak iki grup arasındaki en büyük fark, işleri insanın yerine yapay zekânın yapmasından öğrencilerin daha çok endişe duymasıdır.",
+        "D) Öğrenci ve çalışanlarla yapılan bir araştırmanın sonucu her iki kitlenin de insan zekâsına daha çok güvendiğini ortaya koymuştur. Yapay zekânın insanların işini yapmasından duyulan endişenin öğrencilerde daha yüksek olduğu görülmüştür."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "text": "I. Çünkü bu tepelere değil yükle tırmanmak, yürüyerek çıkmak bile çok ağır bir spor gibi.\nII. Her birimizin taşıması gereken yük altı yedi kilo var.\nIII. Oduncular, köküne zarar vermeyecek şekilde meşeleri kesiyor ve kızağa yüklüyorlar.\nIV. Onlar taşınacak ipleri, baltaları ve diğer malzemeleri hazırlamış; bizi bekliyorlar.\nV. Bu ağırlığın ne demek olduğunu dağa tırmandıkça daha iyi anlıyorum.\nVI. Dağdan odun indirecek odun ekibiyle buluşmak için sabah erkenden köyün meydanına geldik.\nNumaralanmış cümlelerle anlamlı bir metin oluşturulduğunda hangisi dışarıda kalır?",
+      "options": [
+        "A) II",
+        "B) III",
+        "C) IV",
+        "D) V"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "text": "Sosyal medyanın gündelik hayata etkisi nasıldır?\nAşağıdaki metinlerden hangisi bu soruya verilmiş bir yanıt olamaz?",
+      "options": [
+        "A) Asılsız haber ve içerikler sosyal medya yoluyla bilinçli veya bilinçsizce daha fazla ve hızla yayılıyor. Geleneksel medyanın da bunları kaynak almasıyla geniş toplum kitleleri yalan haberlere maruz kalıyor.",
+        "B) Bugün dilimiz yerine parmaklarımız konuşuyor. Eskiden komşu evlerinde yapılan sohbetler şimdi sosyal medya gruplarına taşındı. Aynı evin içinde bile telefonla haberleşir oldu insanlar.",
+        "C) Kullanıcı eğilimleri sosyal medya yazılımlarının güncellenmesine sebep oluyor. Yazılımcılar her geçen gün yeni uygulamalar geliştiriyor. Bu da sosyal medya şirketleri arasında büyük bir rekabet doğuruyor.",
+        "D) Sosyal medya uygulamaları sayesinde gözden uzak olan artık gönülden uzak olmuyor. Araya ne kadar mesafe girerse girsin -isterseniz dünyanın öbür ucuna gidin- fotoğraflarınızı, videolarınızı sevdiklerinizle paylaşabilir hatta onlara canlı yayın yapabilirsiniz."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "text": "Türkiye'de taşıt plaka kodları, 27 Eylül 1962 tarihinde yayımlanan yönetmelikle düzenlenmiştir. Bu tarihte il niteliğinde bulunan 67 şehre alfabetik sıraya göre taşıt plaka kodları verilmiştir. Bu tarihten sonra farklı zamanlarda il olan şehirlere de taşıt plaka kodu verilmiştir.\n(Plaka Kodları Tablosu burada yer almaktadır.)\nBu bilgilerden aşağıdakilerin hangisine ulaşılamaz?",
+      "options": [
+        "A) Ardahan, Eskişehir'den sonra il olmuştur.",
+        "B) Şanlıurfa'ya \"Şanlı\" unvanı 27 Eylül 1962'den sonra verilmiştir.",
+        "C) Gaziantep \"Gazi\" unvanını 27 Eylül 1962'deki düzenlemeden önce almıştır.",
+        "D) Bursa, Manisa'dan önce il olmuştur."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 11,
+      "text": "Bizim zamanımızda şiir, hayatımızın içinde yer alan ve ruhumuzu ince söyleyişleriyle besleyen bir türdü. Şiirin etkisi, on beş yirmi sene öncesine göre çok çok azaldı. İnternet üzerinden de dolaşıma girmesine rağmen şiirin etkisi azalmaya devam etmektedir. Bunun temel sebebi, hayatın bugünkü koşullarının heyecan, zevk, merak unsurlarını anlık duygular hâline getirmesidir. Şairin ilham aldığı bir melek yok artık! Melekler hayatımızdan çekildi! Onları hayatımızdan çekilmeye zorladık. Artık ilhamı, içi boş şeylerden alıyoruz.\nBu metnin yazıldığı türle ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "A) Bir kişinin başından geçen olaylar aktarılmıştır.",
+        "B) Düşünceler bir olay örgüsü çerçevesinde dile getirilmiştir.",
+        "C) Düşünceler kanıtlama amacı güdülmeden öznel bir üslupla ifade edilmiştir.",
+        "D) Bir konuyla ilgili tespitler bilimsel gerçekliğe uygun olarak anlatılmıştır."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "text": "Avustralya'da yaşayan Rebecca isimli bir kadın, dünyada sadece 80 kişide görülen \"süper otobiyografik hafıza\"ya sahip. Rebecca, bugüne kadar yaşadığı en önemsiz olayları bile gayet net hatırlayabiliyor. Çocukken okuduğu kitapların hemen hepsini cümlesi cümlesine ezbere anlatabiliyor. Çoğu insanın gıpta edebileceği bu yetenek, sonradan olumsuz bir duruma dönüşebiliyor. Yeni şeyler öğrenme konusunda zaman zaman güçlükler çeken Rebecca, hatıralarıyla baş etmekte zorlanıyor. Bu özel durum, yeni öğrenmelere yer açan unutmanın ne kadar güzel olduğunu gösteriyor.\nBu medya metninin yazılış amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Olay yorumlama - Bilgi aktarma",
+        "B) Bilgi aktarma - İkna etme",
+        "C) Kültür aktarma - Olay yorumlama",
+        "D) İkna etme - Kültür aktarma"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "text": "İlçe çapında düzenlenecek müzik yarışması için A ve B okullarından Ebrar, Gülsüm, Kemal ve Murat seçilmiştir. Birlikte müzik grubu kuracak olan bu isimler; davul, gitar, piyano ve yan flüt çalacaktır. Bu kişilerle ilgili bilinenler şunlardır:\n• Her bir kişi sadece bir müzik aleti çalacaktır.\n• Gülsüm davul çalacaktır.\n• Murat, gitar ve piyanodan birini çalacaktır.\n• Kemal'in yan flüt ve piyano çalmayacağı bilinmektedir.\n• A okulundan seçilenler davul, yan flüt ve gitardan ikisini çalacaktır.\n• Kemal ve Gülsüm farklı okuldan seçilmiştir.\nBu bilgilere göre aşağıdakilerden hangisi kesin olarak söylenir?",
+      "options": [
+        "A) Gülsüm ve Ebrar aynı okula gitmektedir.",
+        "B) Kemal gitar çalacaktır ve B okulundadır.",
+        "C) Ebrar A okulundadır ve yan flüt çalacaktır.",
+        "D) Kemal ve Murat aynı okula gitmektedir."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "text": "Nasıl başladı, ne vakit başladı bilemiyorum ama ilk belirtiler dokuz yaşımda iken ortaya çıktı. Misafirlerle bahçede oturuyorduk. Yaşlı bir adam saati sordu. Aksi gibi, kimsede saat yoktu. Eniştem içeri, saate bakmaya koştu. Ben o sırada: \"Üçü yirmi geçiyor.\" deyivermiştim. Boğazdan geçen vapurlara bakıp zamanı bazen dakikası dakikasına kestirmek mümkündü. Görünürde vapur olmadığı anlaşılınca gözler fal taşı gibi açıldı ve hep bir ağızdan \"- - - -\" dediler. \"Bilmem.\" dedim. \"Dilimin ucuna geliverdi işte.\" Rahmetli halam: \"Tesadüf a canım!\" dedi. \"Attı tuttu işte. Olmaz mı böyle şeyler?\" Öbürküler de: \"Evet, tesadüf.\" dediler. \"- - - -\" diye de eklediler.\nBu metinde boş bırakılan yerlerden herhangi birine mantık akışına göre aşağıdakilerden hangisi getirilemez?",
+      "options": [
+        "A) Ama bu kadar olur yani!",
+        "B) Aslında saati biliyordu.",
+        "C) Saati tutturmama önce kimse şaşırmadı.",
+        "D) Peki ama nasıl bildin?"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "text": "Görsellerde bir şifreleme sistemine ait çarklar verilmiştir.\nÜç harflik bu şifreleme sisteminde, yazılacak sözcüklerin harfleri için önce A çarkından harfin numarası bulunur; sonra sözcüğün birinci harfi için T, ikinci harfi için G, üçüncü harfi için B çarkından o numaraya karşılık gelen harf yazılır. Üçten fazla harfi olan sözcüklerde ise döngü aynı şekilde devam ettirilir.\nBuna göre \"VATAN\" sözcüğünün bu şifreleme sistemindeki karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "A) RGUTT",
+        "B) RGUGT",
+        "C) RTGTU",
+        "D) RTGGU"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "text": "Hibrit Otomobilin Çalışma Sistemi\nKalkış: Sadece elektrikli motor çalışır.\nNormal sürüş: Asıl gücü elektrikli motor sağlarken diğer motor gerektiğinde destek olur.\nHızlı sürüş: Benzinli motor asıl gücü sağlarken elektrikli motor destek olur. \nYavaşlama-Frenleme: Benzinli ve elektrikli motor durur.\nPilin Şarj Olma Durumları\n• Benzinli motor çalıştığında düşük düzeyde şarj olur. (Hızlı sürüşte şarj olmaz.)\n• Frenleme sırasında yüksek düzeyde şarj olur.\n(Uyarı: Simgeler üzerindeki bölmelerin doluluk seviyesi, motorların çalışma seviyesini ve pilin şarj olma durumunu göstermektedir.)\nBu bilgilerden yola çıkarak benzinli ve elektrikli motorun çalışma seviyeleri ile pilin şarj olma durumunu göstermek isteyen biri, aşağıdakilerin hangisinde yanlışlık yapmış olur?",
+      "options": [
+        "A) Kalkış",
+        "B) Normal sürüş",
+        "C) Hızlı sürüş",
+        "D) Yavaşlama-Frenleme"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "text": "Shenzen şehri 1980'lerde uygulanmaya başlanan SEZ (Özel Ekonomik Bölge) projesiyle kurulmuş ve bu projeden sonra gelişmiş bir şehir. Shenzen sokaklarını adımlar ve teknolojik dünyanın enerjisini hissederken hep aynı tipler çıkıyor önünüze: düşlerinin peşinden koşan girişimciler, ilham peşindeki sanatçılar, kişilik arayışına çıkmış kayıp ruhlar...\nBu metindeki noktalama işaretlerinin işlevi aşağıdakilerin hangisinde yanlış verilmiştir?",
+      "options": [
+        "A) İki nokta, kendisiyle ilgili örnek verilecek cümlenin sonuna konmuştur.",
+        "B) Virgül, birbiri ardınca sıralanan eş görevli kelime ve kelime gruplarının arasında kullanılmıştır.",
+        "C) Yay ayraç, cümledeki anlamı tamamlayan ve cümlenin dışında kalan ek bilgileri belirtmek amacıyla konmuştur.",
+        "D) Üç nokta, herhangi bir sebepten dolayı açık yazılmak istenmeyen kelime ve bölümlerin yerine konmuştur."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "text": "Özne; yüklemin bildirdiği işi yapan, yüklemin bildirdiği durumu üzerine alan ögedir. Nesne ise cümlede öznenin yaptığı eylemden etkilenen ögedir. \"Selim çantasını masaya bıraktı.\" cümlesinde bırakma işini yapan \"Selim\"dir ve cümlenin öznesidir. Selim'in bırakma işinden etkilenen ise \"çanta\"dır ve cümlenin nesnesidir.\nBu açıklamaya göre aşağıdakilerin hangisinde altı çizili öge cümlenin öznesidir?",
+      "options": [
+        "A) Pencerenin önündeki ağacın çiçekli dalları rengarenk bir kelebeği ağırlıyordu.",
+        "B) Sağlı sollu ırmaklar kasabadaki doğuya meyilli sokakları canlandırmıştı.",
+        "C) İlkbahar rüzgârıyla neşelenen martılar sessizliğe bürünen sokağı çınlatıyordu.",
+        "D) Derme çatma kır bahçesini genç bir dut ağacının gölgesi koruyordu."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "text": "Açıklama\nCümlede durum veya zaman bildiren fiilimsiler zarf-fiildir.\nÖrnekler:\nMurat Nehri donunca gençler, üzerinde top zaman bildiren zarf-fiil oynuyormuş.\nGözlerini kitaptan ayırmadan sorduğum durum bildiren zarf-fiil soruya cevap verdi.\n(I) Yaz aylarında tamamen kuruyan Kara Muğla Deresi'nin yatağını takip ederek Saburhane Meydanı'na ilerliyorum. (II) Saburhane'nin sürprizli sokaklarına doğru yol alırken yüzleri ısıtan neşeli ilkbahar güneşinin ağaçlara can verdiğini hissetmek zor olmuyor. (III) Kim bilir üst üste kaç kat kireç atılmış bembeyaz boyalı evleri keşfetmek için sokak aralarına dalıyorum. (IV) Evlerin ahşap bölümleri, Saburhaneli kadınların titizliğiyle siline siline özgün ve büyülü bir sanat eserine dönüşmüş sanki.\nBu parçada numaralanmış cümlelerin hangisinde zarf-fiil yoktur?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "text": "(I) Çayın hikâyesi yaklaşık beşbin yıl evvel Çin'de başladı. (II) Efsaneye göre İmparator Shen Nung bir öğle istirahatindeyken hizmetkârları, içmesi için ona bir kapta su kaynatıyorlardı. (III) Bu sırada tatlı bir rüzgâr, sıcak suya birkaç çay yaprağı düşürdü. (IV) İmparator, bu suyu içince öyle beğendi ki çay bir içecek olarak keşfedilmiş oldu.\nBu parçadaki numaralanmış cümlelerin hangisinde yazım yanlışı vardır?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "A"
+    }
+  ]
+}
