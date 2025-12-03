@@ -1,0 +1,221 @@
+{
+  "year": 2019,
+  "course": "Türkçe",
+  "questions": [
+    {
+      "id": 1,
+      "text": "I. Tedirgin etmek, sataşmak\nII. İnsanın içine işlemek, duygulandırmak, etkilemek\nIII. İlişkin olmak, ilgili olmak, değinmek\n\"Dokunmak\" sözcüğü aşağıdaki cümlelerin hangisinde numaralanmış anlamlarından herhangi biriyle kullanılmamıştır?",
+      "options": [
+        "A) Masamın üzerindeki evraklara kimse dokunmasın.",
+        "B) Bugün ona dokunmayın, keyfi yerinde değil.",
+        "C) Bu konuya dokunduklarını pek görmedim eleştirmenlerin.",
+        "D) Hiçbir şiirin bana bu kadar dokunduğunu hatırlamıyorum."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdaki cümlelerin hangisinde \"tecrübe\"yi anlatan bir söz kullanılmamıştır?",
+      "options": [
+        "A) Bizim takımın teknik direktörü eski kurttur, maçlarda takıma iyi taktik veriyor.",
+        "B) Sütten ağzı yandı, yoğurdu üfleyerek yiyor; artık arkadaş seçiminde daha dikkatli.",
+        "C) Ben insan sarrafı oldum, beni kolay kolay kandıramazlar.",
+        "D) İnce eleyip sık dokuduğundan işlerinde başarılı oluyor."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "text": "Birden çok yüklemli cümlelerde öznenin bütün yüklemlerle uyumlu olması gerekir. Aksi takdirde özne eksikliğinden kaynaklanan anlatım bozukluğu meydana gelir.\nAşağıdakilerin hangisinde bu açıklamayı örnekleyen bir anlatım bozukluğu vardır?",
+      "options": [
+        "A) Tarlaya tohumlar ekimde atılacak, ürün haziranda toplanacak.",
+        "B) Bu hastalığın tedavisi bulunmalı, insanlığa tehdit olmaktan çıkarılmalı.",
+        "C) Yazarın her kitabını okuyorum ve takdir ediyorum.",
+        "D) Her akşam bizimle ilgilenir, yemek getirirdi."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "text": "Kaligrafi sanatı, yazıya ahenkli ve anlamlı şekiller verme sanatıdır ve içinde birçok tekniği barındırır. Sanatçılar eserlerinde bu teknikleri kullanarak kendi tasarımlarını oluşturabilir. Harfin yapısına ve kendi isteklerine göre çizgi tekniklerinin yönlerini değiştirebilir. Görselde kaligrafi sanatında kullanılan bazı çizgi teknikleri verilmiştir.\nBuna göre aşağıdaki sözcüklerden hangisi \"kuyruk, çengel, çentik, tırnak\" teknikleri kullanılarak yazılmıştır? (Görselde h harfinin yazılışı ve Floris, Tırnak, Yaprak, Çengel, Çentik, Kuyruk gösterilmiştir.)",
+      "options": ["A) Gel", "B) Kum", "C) Naz", "D) La"],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "text": "Bilim insanları, tarihî mağaralardan birinin duvarında yukarıdaki şekilleri buluyorlar. Bu şekillerin bilinmeyen bir yazı sistemi olduğuna karar veriyorlar. Bu yazı sisteminde her şeklin bir sözcük olduğu ve sözcüklerin soldan sağa dizildiği sonucuna varıyorlar.\nBu bilgilere göre aşağıdaki şiirlerden hangisi mağara duvarında bulunan sembollerin düzenine uygun yazılmıştır? (Semboller: Vazo, Diz çökmüş insan, Dudak, U şekilli pelerin, Ters U şekilli pelerin. Düzen: Vazo, İnsan, Dudak, Pelerin, Ters pelerin, Ters pelerin, Vazo)",
+      "options": [
+        "A) Bu bir türkü / Toprak çanaklarda / Güneşi içenlerin türküsü",
+        "B) Görmek koklamak hissetmek / Alabildiğine koşmak / Alabildiğine koşmak gökyüzüne",
+        "C) Kuşlar kanat çırpıyor / Süzülüyor gökyüzünde / Gökyüzünde süzülüyor kuşlar",
+        "D) Sözlerin özlem kokulu / Beni yüreklendirir / Beni yüreklendirir sözlerin"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "text": "Deneme, bir konu üzerinde yazarın kesin yargılara varmadan, kanıtlama amacı gütmeden kişisel görüşlerini ifade ettiği yazı türüdür.\nAşağıdakilerden hangisi bu açıklamayı örneklendiren bir metindir?",
+      "options": [
+        "A) Bir melodi duyduğumuzda beynimizde, farklı işlevleri olan birçok bölge etkinleşir. Bir müzik aleti çaldığımızda ise bu etki çok daha belirgindir. Çünkü bir müzik aleti çalabilmek için kas hareketlerinin kontrollü ve uyum hâlinde olması gerekir. Bunun için de beyin daha aktif çalışır.",
+        "B) Herkes kendi hayatından bilir ki her gün birbirini görmenin tadı başka, ayrılıp kavuşmanın tadı başkadır. Ayrılıklar benim yakınlarıma sevgimi tazeler, ev hayatımın tadını artırır. Unutulmamalı ki sevginin kolları, birbirimizi dünyanın bir ucundan bir ucuna kucaklayabilecek kadar uzundur.",
+        "C) Şefika Kutluer adına 1-21 Aralık tarihleri arasında uluslararası festival düzenleniyor. \"Sihirli Flüt\" unvanlı, Türk sanatçı Şefika Kutluer adına düzenlenen bu festivale bu yıl ABD, Çin, Portekiz, Slovakya, Polonya, Avusturya ve Filistin'den sanatçılar katılacak.",
+        "D) On yıl kadar önce, annemin gençlik arkadaşı Bedia Muvahhit'le karşılaşmıştım bir lokantada. Yanına gittim, eğildim \"Bedia Teyze, yetmişimi aştım.\" diye fısıldadım kulağına. Bu münasebetsiz lafımla onun da yetmişini çoktan aştığını söylemek istediğimi hemen anladı. \"Sus kız! Herkese ilan edeceksin.\" diye beni şakadan azarladı."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "text": "Miyop, gözün uzaktaki cisimleri net olarak göremediği bir göz hastalığıdır. Uzağı yani geleceği göremeyen şirketler de \"pazarlama miyobu\" olarak adlandırılmıştır. Pazarlama miyopluğunun nedeni şirketlerin pazara ve müşterilere eski usul yaklaşmaya devam etmeleridir. Bunun en açık belirtisi de reklamlarında, ürünün müşterilere fayda sağlayacak özelliklerini ön plana çıkarmamalarıdır.\nBu metne göre, aşağıdaki reklam afişlerinden hangisi \"pazarlama miyopluğu\" yaşayan bir firmaya ait olabilir?",
+      "options": [
+        "A) Tanınmış Markadan Yepyeni Tasarım (Keskin çizgiler, Göz alıcı renkler)",
+        "B) Ürünlerinizi en güvenli biz ulaştırıyoruz. (Türkiye'nin her noktasına, Depo ve sigorta hizmetleri, Hızlı ulaşım)",
+        "C) Takım elbiselerimizde gün boyu kırışmama garantisi (İster yatıp uyuyun ister spor yapın, ütüye hiç gerek duymayacaksınız.)",
+        "D) Tabletiniz Her An Yanınızda (Hafızası geniş, Hafif, Kalemiyle yaratıcılığınız konuşacak.)"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "text": "Ön yargı, kişinin bir kimse veya bir şeyle ilgili peşinen varsaydığı olumlu veya olumsuz tutumların tümüdür.\nBuna göre aşağıdakilerin hangisinde ön yargılı bir tutumdan söz edilemez?",
+      "options": [
+        "A) Emanete hıyanet olmaz.",
+        "B) Kişi arkadaşından bellidir.",
+        "C) İnsan yedisinde ne ise yetmişinde de odur.",
+        "D) Çok havlayan köpek ısırmaz."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "text": "Anadolu'yu köy köy dolaşmış bir gezgin olarak Maçka'yı her zaman özlerim.\nBu cümleyi dile getiren kişi için aşağıdakilerden hangisi kesin olarak söylenir?",
+      "options": [
+        "A) Anadolu'da en son Maçka'yı gezmiştir.",
+        "B) Anadolu'nun dışında başka bir yer dolaşmamıştır.",
+        "C) Gezdiği yerler içinde aklında sadece Maçka kalmıştır.",
+        "D) Maçka'yı tekrar görmek istemektedir."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "text": "\"Dedesinin elini öptü.\" cümlesinde \"öptü\" sözcüğü çekimli fiildir ve cümlenin yüklemidir. \"Dedesinin öpülesi ellerini hatırladı.\" cümlesinde ise \"öpülesi\" sözcüğü fiil anlamını korumakla birlikte kendisinden sonra gelen ismi nitelediği için sıfat-fiildir.\nBuna göre aşağıdakilerin hangisinde sıfat-fiil kullanılmıştır?",
+      "options": [
+        "A) Meyvesiz ağaca kimse taş atmaz.",
+        "B) Menfaatleri için küçülmeyen insan büyüktür.",
+        "C) Hayat ancak yaşayarak tecrübe edilir.",
+        "D) Öğrenmenin sınırlarını genellikle kendiniz koyarsınız."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "text": "\"Lavanta kokulu Kuyucak köyü, ziyaretçileri büyülüyor.\" cümlesi; \"büyülüyor\" yüklemi fiil olduğu için yüklemin türüne göre fiil cümlesi, yüklem sonda olduğu için yüklemin yerine göre kurallı cümledir.\nBu bilgiye göre aşağıdakilerden hangisi kurallı bir fiil cümlesidir?",
+      "options": [
+        "A) Güneşli, güzel günlerin hayalini kuruyorum.",
+        "B) Adım atmaya mecalsiz bir ihtiyar oluyor böyle anlarda zaman.",
+        "C) Soframıza bereket katan şey sıcak bir tebessümdür.",
+        "D) Yapraklarından utanan solgun bir gül taşıyorum göğsümde."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "text": "• Başka bir kimseden veya yazıdan olduğu gibi aktarılan sözler tırnak içine alınır. Tırnak içindeki alıntının sonunda bulunan işaret tırnak içinde kalır.\n• Özel olarak vurgulanmak istenen sözler tırnak içine alınır.\n• Cümle içerisinde eserlerin ve yazıların adları ile bölüm başlıkları tırnak içine alınır. Bunlara getirilen çekim ekleri tırnağın dışında kalır.\nBu açıklamalara göre aşağıdakilerin hangisinde tırnak işaretinin kullanımıyla ilgili yanlışlık yapılmıştır?",
+      "options": [
+        "A) İnsanın \"sevgi\" açlığı, maddi değerlere bağımlılığını artırıyor.",
+        "B) Çoğu arkadaşım Attila İlhan'ın \"Ben Sana Mecburum\" şiirini ezbere biliyor.",
+        "C) Atatürk'ün \"Bilgi kuvvettir.\" sözü günümüz çağının anahtarıdır.",
+        "D) Kurtuluş Savaşı'nı anlatan \"Küçük Ağa'yı\" okuduğumda çok etkilendim."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "text": "Ay ve gün adları belirli bir tarih bildiriyorsa büyük harfle, bildirmiyorsa küçük harfle başlar.\nBu açıklamaya göre,\nI. 2018'de ziyaret ettiğim Kuzey Ege'nin sevimli köyü Assos'u gezmek için Mart belki de en doğru zaman.\nII. Macar bir mimarın grafik resimlerinden oluşan \"Türkiye'deki Macar İzleri\" başlıklı sergi 2017'nin Eylül ayına kadar ziyaret edilebilecek.\nIII. Şebiarus töreni için 15 Aralık çarşamba günü Konya'ya gideceğim.\ncümlelerinin hangilerinde yazım yanlışı vardır?",
+      "options": [
+        "A) Yalnız I.",
+        "B) Yalnız II.",
+        "C) I ve III.",
+        "D) II ve III."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "text": "Koca bir ömür yaşamış tecrübeli insanlar, gençlerin umursamaz hareketlerini gördükçe onlara \"----.\" diye nasihat etmekten geri durmazlar. Ama kaç genç bu sözün önemini kavrayabilir? Halbuki hayat ilerledikten sonra insanların duydukları birçok pişmanlık, gençlikte bile bile kaybettikleri imkânlar yüzündendir. \"O zamanlar niçin daha çok okumadım? Niçin daha çok çalışmadım?\" diye dizlerini döven insanlara hayatta çok rastlanıyor. Bu insanların neden bu kadar üzüldüklerini gençler anlamasa bile feleğin çemberinden geçmiş yaşlılar çok iyi anlıyor.\nBu metinde boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?",
+      "options": [
+        "A) Büyüklerin sözünü dinleyin",
+        "B) Elinizdeki olanakların kıymetini bilin",
+        "C) Geçmişe takılıp kalmayın, geleceğe odaklanın",
+        "D) Hayatta hep mutlu olmaya çalışın"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "text": "Doğup büyüdüğüm mahallede herkes birbirini tanırdı. Kimse aç uyumaz; kimsenin düğünü, cenazesi unutulmazdı. Pek az küslük olur, kalpler kolay kolay kırılmazdı. Bugüne kıyasla masal gibi bir yerdi mahallemiz. Şüphesiz, burası eserlerimdeki konuya ve karakterlere yön verdi.\nBu metin aşağıdaki sorulardan hangisine cevap vermek amacıyla yazılmıştır?",
+      "options": [
+        "A) Nasıl bir çocukluk geçirdiniz?",
+        "B) Çocukluğunuzun geçtiği yerler eserlerinizi nasıl etkiledi?",
+        "C) Usta bir yazar, yaşadığı yeri eserlerinde ne ölçüde anlatmalıdır?",
+        "D) Günümüzdeki toplumsal ilişkileri nasıl değerlendiriyorsunuz?"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "text": "Sosyal medya devi bazı şirketler, kendi üyelerinin verilerini işleyip kullanabilmek için bazı özel programlar geliştiriyor. Kişilerle ilgili elde ettikleri verilerden yola çıkarak da onları etkilemeye çalışıyor. 2013'te açıklanan bir araştırmaya göre bu tür programlar, kullanıcılarının karakterini beğendiği içeriklerden yola çıkarak doğru tahmin edebiliyor. Şirketler bu tip programlar sayesinde sizi, sosyal medya hesabınızdaki 9 beğeninize bakarak bir iş arkadaşınız kadar, 65 beğeninize bakarak bir akrabanız kadar, 225 beğeninize bakarak ebeveyniniz kadar tanıyabiliyor. Beğendiğiniz içeriklere dayanarak yaşınızı, cinsiyetinizi, kültür seviyenizi, siyasi görüşlerinizi hatta o anki ruh hâlinizi sadece bir tıkla tespit edebiliyor.\nBu parçaya göre sosyal medya kullanımı,\nI. Kişilerin internet şifrelerinin ele geçirilmesi\nII. İnsanların, zamanlarını verimsiz kullanması\nIII. İnsanları yönlendirebilecek haber ve yayınlara yer verilmesi\nIV. Kişiye özel reklamlar sunulması\ndurumlarından hangilerini ortaya çıkarabilir?",
+      "options": [
+        "A) I ve II.",
+        "B) I ve III.",
+        "C) II ve IV.",
+        "D) III ve IV."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "text": "2018 Yılı Ülkelere Göre Mavi Bayraklı Plaj Sayısı Grafiği verilmiştir. Grafik verileri: İtalya (368), Fransa (399), Türkiye (459), Yunanistan (519), İspanya (590).\nBu bilgilere göre 2017 yılına ait \"Ülkelere Göre Mavi Bayraklı Plaj Sayısı\"nı gösteren grafik aşağıdakilerden hangisi olabilir? (Ek bilgiler: Türkiye 2018'de sıralamadaki yerini korumuştur. 2018'de Fransa, İtalya'yı geçerek son sıradan kurtulmuştur. Yunanistan 2018'de liderliğini kaybetmiştir. İspanya 2018'de Yunanistan'ı geçerek bir sıra yükselmiştir.)",
+      "options": [
+        "A) Fransa, İspanya, Türkiye, İtalya, Yunanistan (sıralama küçükten büyüğe)",
+        "B) İtalya, Fransa, Türkiye, Yunanistan, İspanya (sıralama küçükten büyüğe)",
+        "C) Fransa, İtalya, Türkiye, Yunanistan, İspanya (sıralama küçükten büyüğe)",
+        "D) İtalya, Fransa, Yunanistan, Türkiye, İspanya (sıralama küçükten büyüğe)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "text": "Türk Dil Kurumunun e-sözlüğünde yer alan \"testi\" sözcüğüyle ilgili bazı açıklamalar aşağıda verilmiştir. (Köken: Farsça destî; Tanım ve Örnek Cümle; Deyim ve Atasözleri; Parmak Alfabesiyle Gösteriliş)\nBuna göre \"testi\" sözcüğünün açıklamalarında, sözlüklerde bulunması beklenen;\nI. Sözcüğün tanımlanması ve tanıma uygun kullanımının örneklendirilmesi,\nII. Sözcüğün, içinde kullanıldığı deyim ve atasözlerine yer verilmesi,\nIII. Kimi kavramların ifade ettiği anlamların resimle gösterilmesi,\nIV. Sözcüğün ortaya çıktığı dil ve o dildeki hali ile ilgili bilgi verilmesi,\nV. Sözcüğün yöresel kullanımlarının belirtilmesi\nniteliklerinden hangileri örneklenmiştir?",
+      "options": [
+        "A) I, II ve IV.",
+        "B) I, II ve V.",
+        "C) II, III ve IV.",
+        "D) III, IV ve V."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "text": "Bazen ilacımızı zamanında içmeyi unutuyor, bazen de içtiğimizi unutup aynı ilacı tekrar alıyoruz. Bu soruna çözüm amaçlı bir akıllı ilaç kapağı tasarlanmış. Bu kapak telefona indirilen bir uygulamayla çalışıyor. Bu uygulamaya ilacın adı ve dozajı giriliyor. Kullanmanız gereken zamanda ilacın kapağını açmadığınızda telefonunuza \"İlacını acilen al.\", aynı ilacı içtiğinizi unutup ikinci kez almaya kalktığınızda telefonunuza \"Onu zaten almıştın.\" uyarı mesajı geliyor. Akıllı ilaç kapağını zamanında açtığınızda ise \"Teşekkür ederim.\" mesajı geliyor.\nKıvanç Bey sabah alması gereken ilacını \"V\", öğle vakti alması gereken ilacını \"Y\", akşam alması gereken ilacını da \"Z\" şeklinde uygulamaya kaydediyor. Kıvanç Bey'in telefonuna gelen mesajlar aşağıdaki tabloda gösterilmiştir. (Tablo: Pazartesi (V: acilen al, Y: zaten almıştın, Z: zaten almıştın), Salı (V, Y, Z: Teşekkür ederim), Çarşamba (V: zaten almıştın, Y, Z: Teşekkür ederim), Perşembe (V: zaten almıştın, Y: acilen al, Z: Teşekkür ederim), Cuma (V, Y, Z: Teşekkür ederim))\nBu bilgilere göre Kıvanç Bey'in ilaç kullanımıyla ilgili aşağıdakilerden hangisi söylenemez?",
+      "options": [
+        "A) Uygulamanın uyarıları, en çok pazartesi günü işine yaramıştır.",
+        "B) Çarşamba günü \"V\" ilacını içtiğini unutmuştur.",
+        "C) Perşembe günü \"Y\" ilacını içmeyi uygulama sayesinde hatırlamıştır.",
+        "D) Uygulamanın uyarılarına en çok \"Z\" ilacı için ihtiyaç duymuştur."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "text": "Trafik kurallarına uymayan sürücülere belirli oranlarda ceza puanı verilir. Bir yıl içinde ceza puanı 100'e ulaşan sürücünün sürücü belgesine el konur. Bazı kural ihlalleri ve ceza puanları şunlardır: (44/b: 5 puan, 47/1-b: 20 puan, 51/2-a: 15 puan, 61/o: 10 puan, 78/1-a: 15 puan).\nAynur, Meltem, Rıza ve Veysel'in bir yıl içinde aldıkları ceza puanlarıyla ilgili bilinenler şunlardır: Veysel iki ihlalden toplam 35 ceza puanı almıştır. Aynur, sadece 78/1-a kanun maddesine uymadığı için ceza puanı almıştır. Meltem, farklı iki kural ihlalinde bulunmuştur. Rıza üç kez aynı kural ihlalinde bulunmuştur. Meltem ile Aynur'un ceza puanları aynıdır.\nBu bilgilere göre aşağıdakilerden hangisine kesin olarak ulaşılır?",
+      "options": [
+        "A) Veysel'in kural ihlallerinden biri de 51/2-a kanun maddesine uymamasıdır.",
+        "B) Aynur ve Rıza aynı kural ihlalinden dolayı ceza puanı almıştır.",
+        "C) Meltem'in kural ihlallerinden biri de 61/o kanun maddesine uymamasıdır.",
+        "D) Rıza'nın ceza puanı Veysel'inkinden fazladır."
+      ],
+      "answer": "C"
+    }
+  ]
+}
