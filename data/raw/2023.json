@@ -1,0 +1,226 @@
+{
+  "year": 2023,
+  "course": "Türkçe",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ressamın “Pamuk Tarlası ve Kargalar” adlı tablosunu getirin gözlerinizin önüne. Pamuğu simgeleyen “beyaz” ve kargaları simgeleyen “kara”, ressamın (I) - - - - yansıması sayılmaz mı? Kara ile beyaz arasındaki (II) - - - - sanatçının oluşturduğu gerilimin bir anlatımıdır. Ne kargadır anlatılmak istenen ne de pamuk tarlası. Sanatçının amacı (III) - - - -. Böylece ressam, yaşadığı karmaşayı resimlerine yansıtmıştır.\nBu parçada numaralanmış boşluklara düşüncenin akışına göre, aşağıdakilerden hangisi getirilmelidir?",
+      "options": [
+        "A) iç dünyasının / karşıtlık / iç çelişkilerine vurgu yapmaktır",
+        "B) amaçlarının / uyumluluk / insanları etkisi altına almaktır",
+        "C) duygu durumunun / zıtlık / toplumu aydınlatmaktır",
+        "D) vicdanının / etkileyicilik / sembollerle hayatı anlatmaktır"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "text": "İlk romanını yayımladığında elli dört yaşında olan yazar, oldukça rağbet gören (beğenilen) bu eserinden sonra neredeyse her yıl bir kitap yayımlayarak Türk edebiyatının köşe taşlarından (çok önemli) biri olmayı başardı. Yazar, titizlik gösterilerek (ayrıntılı olarak) ve sağlığındaki eski baskıları göz önünde bulundurularak (dikkate alınarak) hazırlanan üç muhteşem romanıyla yeniden bizlerle.\nBu parçada numaralanmış sözlerden hangisinin anlamı yay ayraç içinde verilen açıklamayla uyuşmamaktadır?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "text": "Aslında hepimiz aynı şeyi yapıyoruz. Bizden önceki kuşakların açtıkları edebî damarları genişletiyoruz. Türk edebiyatının bizden önceki kuşaklarının tüm belirgin özellikleri bende ve benim kuşağımdaki diğer yazarlarda var. Biz de bunu kendi üslubumuzla harmanlayarak bizden sonrakilere devrediyoruz.\nAltı çizili cümlenin bu metne kattığı anlam aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Edebî mirasımızı sonraki kuşağa devretme konusunda köprü vazifesi görüyoruz.",
+        "B) Edebî mirasımızın gizli kalmış değerlerini gün yüzüne çıkarma görevini üstleniyoruz.",
+        "C) Edebî mirasımızın aslına sadık kalıp onu korumaya devam ediyoruz.",
+        "D) Edebî mirasımıza sahip çıkıp ona yeni bir yorum katıyoruz."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "text": "Yazmaya başladığımda yetişkinleri hedeflemiştim. Geriye dönüp baktığımda ise eserlerimin çocuklarla ilgili olduğunu görüyorum. Sanki çocuklar, oyun oynarken şöyle dedi: “Kutu kutu pense / Elmamı yerse / Feridun Amca / Aramıza gelse.” İşte o günden beri çocukların arasından çıkamadım. Bu durumdan çok mutluyum.\nBu parçadaki altı çizili ifadeyle aşağıdakilerden hangisine gönderme yapılmıştır?",
+      "options": [
+        "A) Başlangıçtaki hedefine ulaşmış olmasına",
+        "B) Çocukların arasında vakit geçiriyor olmasına",
+        "C) Kitaplarının çocuklara yönelik olmasına",
+        "D) Çocukların isteklerini gerçekleştirmiş olmasına"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "text": "Kelimeler tıpkı gözlükler gibi, netleştiremedikleri her şeyi daha da bulanıklaştırır.\nBu cümleyle anlatılmak istenen aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Kelimeleri anlamına uygun kullanmak bilgi gerektirir.",
+        "B) Anlatılmak isteneni açıkça ifade edemeyen kelimeler anlamayı zorlaştırır.",
+        "C) Birden fazla anlamı olan kelimeler, anlatımı sadelikten uzaklaştırır.",
+        "D) Kelimeler, gücünü herkes tarafından kolayca anlaşılmasından alır."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "text": "Türkiye’nin sayılı şairlerinden olan sanatçının “Kırık Tar Sesi” adlı şiirini diğer şiirleri kadar başarılı bulamadım.\nBu cümleye göre,\nI. Sanatçı önemli bir şairdir.\nII. Sanatçının diğer şiirleri başarılıdır.\nIII. Sanatçının “Kırık Tar Sesi” adlı şiiri başarısızdır.\nyargılarından hangilerine ulaşılabilir?",
+      "options": [
+        "A) Yalnız I",
+        "B) Yalnız III",
+        "C) I ve II",
+        "D) II ve III"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "text": "“Çocuklar İçin Şiir” başlığı altında yayımlanan kimi kitaplarda ne yazık ki “çocuk şiiri” niteliği taşımayan ürünlerle karşılaşıyoruz. Yapmacık uyak yığınlarına eklenecek bir tutam iç ses uyumu, iki gram da imge... İşte size harika (!) bir çocuk şiiri. Ne var ki çocuklar o şiirleri hiç okumuyor, iyi de ediyorlar! Çocuk, kendisi için yazılan bir şiiri okurken kendinin yazdığını sanmalıdır. Bunu sağlamak da özel bir duyarlılığın işidir.\nBu metinde anlatılmak istenen aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Çocukların yazdığı şiirler, yetişkinlerin yazdığı çocuk şiirlerinden daha fazla ilgi görmektedir.",
+        "B) Çocuklara yönelik şiir yazanlar onların dünyalarından ilham almalıdır.",
+        "C) Çocuk şiirlerinin başarılı olabilmesi için temasının çocukluk olması gerekmektedir.",
+        "D) Çocuklar için şiir yazarken şair, kendi çocukluğundan beslenmelidir."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "text": "Öykücü olmak ne demektir? Tanımlaması güç bir durum. Hele anlatı türlerinin birbirlerinin alanlarına nüfuz ettikleri, birbirlerinin tanımlarını ödünç aldıkları veya tanımlarına el koydukları günümüz edebiyatında. Şiir ile öykü, öykü ile roman, roman ile deneme elbette genel hatlarıyla birbirinden ayrılabilir ama öyle metinler var ki bütün bu anlatı türleri bir arada örülmüş. Öylesi metinler ki bunlar, öykünün bittiği yerde roman başlar gibi olurken araya sanki şiir giriyor, tam biterken yeniden öykü boy gösteriyor. Bu nedenle metinlerin bir karşılığını aramak bana doğru gelmiyor.\nBu metinde yazarın asıl eleştirdiği durum aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Türleri keskin çizgilerle ayırma çabası",
+        "B) Öykünün her türün içinde erimesi",
+        "C) Tür özelliklerinin anlaşılmasının güçlüğü",
+        "D) Türü tanımlamada metin yapılarının esas alınması"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "text": "Hiçbir kitabımda ön söz yoktur. Bu konuda görüşüm nettir. İçtenlik bulamam büyük büyük iddialar içeren ön sözlerde. Yararı olmaz demiyorum ön sözlerin. Bizi kitaba yaklaştıran, bildiklerimize yeni bilgiler ekleyen yönleri vardır. Bunların yanında okuyucuya âdeta tepeden bakan, okuyucunun kitaba ilişkin oluşacak beğenilerini daha işin başında kendi yargılarıyla kuşatan itici bir yanı da vardır ön sözlerin.\nBu metne göre, aşağıdakilerden hangisi yazarın “ön sözler” ile ilgili görüşlerinden biri değildir?",
+      "options": [
+        "A) Okuru küçük gören bir nitelik taşımaktadır.",
+        "B) Okurun esere olan bakışını etkilemektedir.",
+        "C) Samimiyetten uzak bir yapısı bulunmaktadır.",
+        "D) Eserdeki içeriğin anlaşılmasını zorlaştırmaktadır."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "text": "Müzik; milletleri meydana getiren, şekillendiren ve büyük medeniyetlere dönüştüren bir kültür ögesidir. İnsanların çeşitli duygularının ifadesi olan müzik, üretildiği coğrafyanın tüm kültürel unsurlarını diğer sanatlardan farklı olarak herkesin anlayacağı bir sadelikte ve en çarpıcı hâliyle yansıtır.\nBu metinde aşağıdaki düşünceyi geliştirme yollarından hangileri kullanılmıştır?",
+      "options": [
+        "A) Karşılaştırma - örneklendirme",
+        "B) Benzetme - tanımlama",
+        "C) Karşılaştırma - tanımlama",
+        "D) Benzetme - örneklendirme"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "text": "Sabaha kadar yürürdük. Birkaç nöbetçi kulübesi vardı, bir ona bir öbürüne uğrardık. Bir uçtan öbür uca gecenin zifirî karanlığında devriye gezer, turlardık. Ben gökyüzünü bu kadar yalın, bu kadar açık ve tabii ki milyonlarca yıldızla birlikte ilk kez kendi köyümde görmüştüm, bir de bu kasabada. Yazını da kışını da görmüştüm buranın, aynıydı. Geceleri tarif edilemez bir soğuktu yaşadığımız, gündüzleri sıcak. Çöl böyle bir şey olmalıydı.\nBu metinle ilgili aşağıdakilerden hangisi söylenemez?",
+      "options": [
+        "A) Olaya dayalı anlatım yapılmıştır.",
+        "B) Hayalî unsurlara yer verilmiştir.",
+        "C) Gözlemden yararlanılmıştır.",
+        "D) Bir saptamada bulunulmuştur."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "text": "(I) Nesiller boyunca bizden “Çok gezen mi bilir, çok okuyan mı?” ikilemini çözmemiz beklendi. (II) Atalarımız, durağan bir hayat yaşamayıp hayatları boyunca çok okuyup çok gezmeyi bir arada sürdürmüş. (III) Pek çok bilgiye, âlime, kitaba uzun ve zahmetli bu yolculukları göze alarak ulaşmışlar. (IV) Hem çok okuyup hem de çokça gezerek medeniyetlerini inşa etmişler.\nBu parçada numaralanmış cümlelerin hangisinden sonra “Bir yerde akmadan bekleyen suyu değil akıp giden suyu tercih eden atalarımız, ilim için şehirden şehre, medreseden medreseye yolculuk etmiş.” cümlesi getirilirse metnin anlam bütünlüğü bozulmaz?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "text": "Çoğu insanın her sabah uyandığında kendine gelmek için yaptığı rutin davranışlar olur. Sanırım bende de alışkanlığa dönüşmeye aday bir rutin başladı. Yüz yıkamak, kahve içmek, gerinmek, banyo yapmak gibi rutinlerden değil bahsettiğim. - - - -\nBu parça aşağıdakilerin hangisiyle devam ettirilirse öyküleyici bir metne dönüşür?",
+      "options": [
+        "A) Alışılmadık, sıra dışı sözcükleriyle aklıma takılan tekerlemeler... Sahi neden insanlar tekerleme söyleme ihtiyacı duyar ki? Hem de benim sabah uyanır uyanmaz yaptığım ilk işin tekerleme söylemek olduğunu duysalar beni yadırgarlar mı? Bilemem ama tekerlemelerin dil becerilerini ve zihinsel yetkinlikleri geliştirdiği bir gerçek.",
+        "B) Hani şu tekerlemeler vardır ya... Kimini hiç söyleyemediğimiz kimini ise muzaffer bir komutan edasıyla bir çırpıda söyleyiverdiğimiz tekerlemeler. Hani her gece biri akla takılan, sabahında hatasız söylenmeye çalışılanlar.",
+        "C) Tekerleme söylemek. Evet evet, yanlış duymadınız. Hem de hatasız bir şekilde söylemeden yatağımdan çıkmamak gibi kuralları olan garip, yorucu ve bir o kadar da heyecan verici bir durum. Alışkanlığa dönüşmesini engellemek elimde mi değil mi bilmiyorum ama bir yerlerde sonlandırmak gerek böyle davranışları.",
+        "D) Aklımda kalmış tekerlemelerden birini doğru söylemeden yatağımdan kalkamıyorum artık. Yine bir gün uyanır uyanmaz başladım birini söylemeye. “Şu duvarı badanalamalı mı, badanalamamalı mı?” derken sesimi yükseltmiş olmalıyım ki babam kaşlarını çatmış bir şekilde odaya girdi."
+      ],
+      "answer": "D"
+    },
+    {
+  "id": 14,
+  "text": "Bir tatil köyünde su topu turnuvası düzenlenir ve bu turnuvaya 4 takım katılır. Bu turnuvada her takım diğer takımlarla birer maç yapmıştır. Aşağıdaki tabloda takımların kazandığı, berabere kaldığı ve kaybettiği maç sayısı gösterilmiştir:\nTakımlar: Somonlar (Kazandığı: 0, Berabere: 2), Ahtapotlar (Kazandığı: 2, Berabere: 1, Kaybettiği: 0), Balinalar (Kazandığı: 0, Berabere: 2), Yunuslar (Kazandığı: -, Berabere: 2)\nBu bilgilere göre, aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+    "A) Somonlar, Ahtapotlar'ı yenmiştir.",
+    "B) Balinalar, Yunuslar'la berabere kalmıştır.",
+    "C) Balinalar, Somonlar'ı yenmiştir.",
+    "D) Yunuslar, Ahtapotlar'la berabere kalmıştır."
+  ],
+  "answer": "A"
+},
+    {
+  "id": 15,
+  "text": "Bisiklet vites kullanımında dikkat edilmesi gereken önemli noktalardan biri, zincirin doğru konumda olmasıdır. Zincir, ön dişlilerin en küçük dişlisindeyken arka dişlilerin en büyük üç dişlisinden birinde; zincir, ön dişlilerin en küçük dişlisinin bir büyüğündeyken arka dişlilerin en büyük ve en küçük hariç diğer tüm dişlilerinden birinde; zincir, ön dişlilerin en büyük dişlisindeyken arka dişlilerin en küçük dişlisi veya en küçükten bir büyük dişlisinde olmalıdır.\nBuna göre, aşağıdaki vites kullanımlarından hangisi bisiklete zarar verir?",
+  "options": [
+    "A) (İlk vites kombinasyonunun görseli)",
+    "B) (İkinci vites kombinasyonunun görseli)",
+    "C) (Üçüncü vites kombinasyonunun görseli)",
+    "D) (Dördüncü vites kombinasyonunun görseli)"
+  ],
+  "answer": "B"
+},
+    {
+  "id": 16,
+  "text": "Bir ülkenin 1971 yılına ait toplam enerji üretiminin kaynaklara göre dağılımı aşağıdaki grafikte gösterilmiştir:\nPetrol: %44, Kömür: %26, Doğal gaz: %16, Biyoyakıt: %11, Hidro: %2, Nükleer: %1\n1971 yılı ve 2018 yılı karşılaştırıldığında 2018 yılına ait toplam enerji üretiminin kaynaklara göre dağılım grafiğine %4 oranında “diğer kaynaklar” verisi eklenmiştir. Ayrıca yüzde olarak; petrolün oranı azalırken birinci sıradaki yeri sabit kalmıştır. Doğal gazın ve kömürün oranı artmış ancak sıralamadaki yerleri aynı kalmıştır. Hem hidronun hem de nükleerin oranı artmış ve sıralamadaki yeri değişmiştir. Biyoyakıtın oranı azalmış ancak sıralamadaki yeri sabit kalmıştır.\nBu bilgilerden hareketle, söz konusu ülkenin 2018 yılına ait toplam enerji üretiminin kaynaklara göre yüzdelerini veren sütun grafiği aşağıdakilerden hangisi olabilir?",
+  "options": [
+    "A) Petrol %30, Kömür %27, Doğal gaz %22, Biyoyakıt %9, Nükleer %5, Hidro %4, Diğer kaynaklar %4",
+    "B) Petrol %30, Kömür %27, Doğal gaz %22, Biyoyakıt %9, Nükleer %3, Hidro %5, Diğer kaynaklar %4",
+    "C) Petrol %28, Kömür %27, Doğal gaz %23, Biyoyakıt %9, Nükleer %6, Hidro %3, Diğer kaynaklar %4",
+    "D) Petrol %28, Kömür %27, Doğal gaz %17, Biyoyakıt %10, Nükleer %11, Hidro %3, Diğer kaynaklar %4"
+  ],
+  "answer": "B"
+},
+    {
+  "id": 17,
+  "text": "Dünyada kesme çiçek üretimi yapılan en önemli bölge Avrupa’dır. Hollanda 3,5 milyar dolar ile kesme çiçek üretim gelirinde ilk sırada yer alır. Üretim gelirinde Hollanda’yı hemen ardından takip eden İtalya, kesme çiçek ekili alanlar bakımından Avrupa’da liderdir. Hollanda’nın kesme çiçek ekili alanı 8.241 hektardır. Ekili alan açısından İspanya’nın hemen gerisinde ve son sırada yer alan Fransa, kesme çiçek üretim gelirinde İspanya’dan öndedir.\nBu bilgilere göre, ülkelerin kesme çiçek üretim gelirlerini ve ekili alanlarını gösteren tablo aşağıdakilerden hangisi olabilir?",
+  "options": [
+    "A) Hollanda: 3,5 milyar $ / 8.241 hektar; İspanya: 1 milyar $ / 6.140 hektar; Fransa: 1,2 milyar $ / 4.464 hektar; İtalya: 2,1 milyar $ / 8.643 hektar",
+    "B) Hollanda: 3,5 milyar $ / 8.241 hektar; İspanya: 1,2 milyar $ / 4.550 hektar; Fransa: 1,4 milyar $ / 6.200 hektar; İtalya: 3 milyar $ / 8.740 hektar",
+    "C) Hollanda: 3,5 milyar $ / 8.241 hektar; İspanya: 1,3 milyar $ / 7.250 hektar; Fransa: 1,1 milyar $ / 5.300 hektar; İtalya: 2 milyar $ / 8.400 hektar",
+    "D) Hollanda: 3,5 milyar $ / 8.241 hektar; İspanya: 1,4 milyar $ / 5.900 hektar; Fransa: 1,5 milyar $ / 5.450 hektar; İtalya: 2,4 milyar $ / 7.500 hektar"
+  ],
+  "answer": "A"
+},
+    {
+      "id": 18,
+      "text": "(I) Balıkçı teknesi Güneş doğarken balıkçıları alarak yola çıkmış olmalıydı. (II) Limandaki tekneleri dalgın bakışlarıyla gözden geçirdi fırtına Kağan. (III) Aslında o güne kadar her gün onlarca tekne yolcu etmişti. (IV) Oğluna bir an için de olsa bu havada balığa çıkmasaydınız demediğine pişman olmuştu.\nBu parçadaki numaralanmış cümlelerin hangisinde yazım yanlışı yoktur?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "text": "Mahalle, dünden bugüne şehrin temel birimi olagelmiştir. Şehir, mahalle mahalle kendini inşa etmektedir. Bu bakımdan mahalle, çekirdeği ve tohumu gibidir bir şehrin. Dolayısıyla mahalle, geçmişten beri şehrin vazgeçilmez bir unsuru olmuştur. Bu gerçek, mahallenin her şeye rağmen değiştirilemeyen ve dokunulamayan yapısındandır.\nBu parçadaki numaralanmış yerlerden hangilerinde virgülün(,) kullanım amacı anlam karışıklığını önlemektir?",
+      "options": [
+        "A) I ve IV",
+        "B) II ve V",
+        "C) III ve IV",
+        "D) III ve V"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "text": "Bilgi:\nFiilimsiler fiil anlamı taşıdıkları hâlde fiiller gibi çekimlenemez. Cümlede isim, sıfat, zarf görevinde bulunur ve isim-fiil, sıfat-fiil, zarf-fiil olmak üzere üç türe ayrılır. Bir rüzgâr esse şimdi gökyüzünden. Mavinin kokusu delip geçse benliğimi. Umut dolu bir rüyaya yolum düşse yemyeşil kırlarda. Keyifli bir düş olsam çayırlara kök salan.\nBu parçadaki altı çizili fiilimsi türleri aşağıdakilerin hangisinde bir arada kullanılmıştır?",
+      "options": [
+        "A) Dünyanın dört bir yanından sanatçıların bir araya geldiği günde gökyüzünde süzülmüşüm sessizce.",
+        "B) Kollarımı savura savura tüm insanlarla birlikte kendimi müziğin ritmine bırakırken eğleniyorum.",
+        "C) El ele tutuşarak şarkılar söyleyelim neşe içinde doğmuş güne.",
+        "D) Su gibi akınca zaman, sonbaharı uğurlamanın vaktidir."
+      ],
+      "answer": "C"
+    }
+  ]
+}
