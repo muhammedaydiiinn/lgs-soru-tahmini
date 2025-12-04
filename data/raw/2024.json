@@ -1,0 +1,258 @@
+{
+  "year": 2024,
+  "course": "Türkçe",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tamirci, benim arabamı tamir etmeyi bırakıp yeni gelen müşteriyle ilgilendi.\n\n• Bırak, insanlar nasıl düşünüyorsa öyle yaşasın.\n• Evindeki tadilat bitene kadar antika eşyalarını komşusuna bıraktı.\n• Kalfasının artık işinin ehli olduğuna karar veren usta, elindeki işi ona bıraktı.\n\n'Bırakmak' sözcüğü bu cümlelerde aşağıdaki anlamlarından hangisiyle kullanılmamıştır?",
+      "options": [
+        "A) Bir işi başka bir zamana ertelemek",
+        "B) Bakılmak, korunmak için vermek",
+        "C) Bir iş için birini görevlendirmek",
+        "D) Birinin bir şey yapmasına engel olmamak"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdaki metinlerin hangisinde, yay ayraç içinde verilen deyimle ilişkilendirilebilir bir durum vardır?",
+      "options": [
+        "A) Trabzon'dan yola çıktım. Gurbet değildi beni asıl yoran, arkamda bıraktıklarımdı. Çok zordu onlardan ayrılmak. Bedenim oradan ayrılıyor fakat yüreğim orada kalıyordu. (ayağına bağ olmak)",
+        "B) Yıl 1971, mevsim sonbahar. Sonbaharın sarı yaprakları savrulurken rüzgârla, otobüsümüz terminalden çıktı. Kırşehir'den, Almanya'ya gitmek için ayrıldım. Bir meçhule doğru yol alıyorum şimdi. (elinden bir şey gelmemek)",
+        "C) Kütahya'dan yola çıktı aracımız. Zorlu bir yolculuk olacağı şimdiden belli. Yolculukta ne çıkar insanın karşısına bilinmez. Ne çıkarsa çıksın, sonuna kadar gitmek için düştük yollara. (göze almak)",
+        "D) Sirkeci Garı'ndayım. Tren gitmek için hevesliymiş gibi heyecanlı ve acı acı çalıyor düdüğünü. İnsanlar toplanmış, gözler yaşlı. Son kucaklaşmalar, son vedalar... Ayrılık acısı düşmüş yüreklere. (burnunda tütmek)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "text": "(I) Doğduğumuz andan itibaren çevremizden duyduğumuz, okuyarak öğrendiğimiz tüm sözcükler bizim servetimizdir. (II) Bu servet, düşüncelerimizin gelişmesini ve hayatımızı nitelikli bir şekilde sürdürmemizi sağladığından en değerli varlığımızdır. (III) Doğru kararlar alabilmek, gerçeğe ulaşma yolunda sorulacak sorulara işe yarar cevaplar verebilmek için bu birikime ihtiyaç vardır. (IV) Yani ne kadar sözcüğünüz varsa o kadar geniş düşünür ve özgürleşirsiniz.\n\nBu parçadaki numaralanmış cümlelerin hangisinde koşul anlamı vardır?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu yoktur?",
+      "options": [
+        "A) Sözlerini ya duymazdan geleceksin ya da gülüp geçeceksin.",
+        "B) O kadar çok emek harcadım bu taşlı tarlaya, yine de verim alamadım.",
+        "C) Azimli insanların umutları asla tükenmez, daima artar.",
+        "D) Her sabah deniz kenarına iner ve birkaç saat yürüyüş yapardım."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "text": "I. Döngüsel ekonomi modeli, kullanılmış malzemelerin dönüştürülmesini içeriyor.\nII. Döngüsel ekonomi modeli Anadolu topraklarında yüzyıllardır bir yaşam kültürü olarak uygulanıyor.\nIII. Birleşmiş Milletler, döngüsel ekonomi modelini kalkınma planına dâhil etmiştir.\n\nBu cümlelerin anlamca doğru bir biçimde birleştirilmiş hâli aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Birleşmiş Milletlerin, kalkınma planına dâhil ettiği, kullanılmış malzemelerin dönüştürülmesini içeren döngüsel ekonomi modeli, Anadolu topraklarında yüzyıllardır bir yaşam kültürü olarak uygulanıyor.",
+        "B) Anadolu topraklarında yüzyıllardır kullanılmış malzemelerin dönüştürülmesini bir yaşam kültürü olarak içeren döngüsel ekonomi modelini, Birleşmiş Milletler, kalkınma planına dâhil etmiştir.",
+        "C) Birleşmiş Milletlerin, kalkınma planına dâhil ettiği, Anadolu topraklarında kullanılmış malzemelerin dönüştürülmesini içeren döngüsel ekonomi modeli, yüzyıllardır bir yaşam kültürü olarak uygulanıyor.",
+        "D) Anadolu topraklarında yüzyıllardır bir yaşam kültürü olarak uygulandığından Birleşmiş Milletlerin kalkınma planına dâhil edilen döngüsel ekonomi modeli, kullanılmış malzemelerin dönüştürülmesini içeriyor."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "text": "Zaman, içinde birçok fırsatın bulunduğu şey; fırsat ise içinde çok fazla zamanın bulunmadığı şeydir.\n\nAşağıdakilerden hangisi bu cümleye anlamca en yakındır?",
+      "options": [
+        "A) İnsanlar, büyük fırsatlar beklerken yanlarından gelip geçen küçük fırsatları kaçırır.",
+        "B) Fırsat teknesi size gelmiyorsa siz ona doğru yüzün.",
+        "C) Eline geçen fırsatları değerlendirebilenler yeni fırsatlar yakalar.",
+        "D) Fırsat, kapınıza geldiğinde kapıyı iki kez çalar zannetmeyin."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "text": "Bugün geldiğimiz noktada biz sosyal medyayı değil, sosyal medya bizi kullanıyor; böylece kendi hayatına bir başkası kadar yabancı olan '...mış gibi yapanlar topluluğu' haline dönüştük.\n\nBu cümledeki altı çizili sözle anlatılmak istenene aşağıdaki sosyal medya davranışlarından hangisi örnek olamaz?",
+      "options": [
+        "A) Kişinin kendi aldığı çiçeklerin, ona hediye olarak geldiğini gösteren fotoğraflar paylaşması",
+        "B) Kedileri sevmeyen birinin, kedileri severken çektirdiği fotoğraflarını paylaşması",
+        "C) Mutsuz bir ruh hâlindeki kişinin, yaptığı bir etkinlikten keyif aldığında bununla ilgili video paylaşması",
+        "D) Özünde bencil olan birinin, yardımlaşmayla ilgili sürekli özlü sözler paylaşması"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "text": "Bir ortaokulda bir öğretmen ilkbahara girerken öğrencilerine birtakım etkinlikleri ödev vermiştir. Verilen ödevdeki bu etkinliklerde;\nI. Gözlem yapılması gerekmektedir.\nII. Uygulama yapılacaktır.\nIII. Bir tasarı gerçekleştirilecektir.\n\nAşağıdaki etkinliklerin hangisinde numaralanmış bu şartların tamamı sağlanmıştır?",
+      "options": [
+        "A) Minyatür heykel yapma: Kâğıt hamurundan, herhangi bir nesnenin heykelciğini yapabilirsiniz. Bunun için gazete kâğıdı, su, tutkal ve renkli kâğıtlara ihtiyaç vardır. Gazete kâğıtlarını suyla hamur kıvamına getirip içine tutkal koyduğunuzda hamurunuz hazır demektir. Heykelciğiniz bittikten sonra da renkli kâğıtlarla süsleyin.",
+        "B) Ses haritası çıkarma: Bir yürüyüş rotası hazırlayın ve bunun krokisini bir kâğıda çizin. Bu kâğıttan, fotokopiyle yedi adet çoğaltın. Ardından bu rotada yürüyün ve yol boyunca nerede, hangi sesi (rüzgâr, kuş, böcek vb.) duyuyorsanız krokiye kaydedin. Bunu yedi gün boyunca tekrarlayıp ses haritasını oluşturun.",
+        "C) Yaprak boyama: Doğa, eski kültürlere esin ve malzeme kaynağı olmuştur. Eski kültürlerde insanlar kendilerini ifade etmek için doğal malzemeleri bolca kullanırlar. Siz de dökülmüş yaprak toplayıp akrilik boyayla yaprakların üzerine desenler çizerek kendinizi ifade etmeye çalışın.",
+        "D) Koku belirleme: Koku konusunda hafızanızı geliştirirseniz binlerce kokuyu ayırt edebilirsiniz. Çam, vanilya, yasemin, lavanta, hanımeli gibi... Bir doğa yürüyüşüne çıkarak keşfettiğiniz kokuların bir listesini yapın."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "text": "Gönül, kaptan köprüsüne çık...\nÇayır kokusunu alan\nbir tay gibi kokla açık denizleri\nÇevirmesin senin kafanı geri\ngeride kalanlara doğru giden\ndümen suyunun köpüklü izleri...\n\nBu şiirde anlatılmak istenen aşağıdakilerden hangisidir?",
+      "options": [
+        "A) İnsan, yaşadıklarına takılmadan yaşayacaklarına odaklanmalı.",
+        "B) Hayat yolculuğunda ne gelecek ne de geçmiş vardır, sadece şimdi vardır.",
+        "C) Geleceğe umutla yürümek isteyen insanlar hayatı ciddiye almalıdır.",
+        "D) Mutluluğu yakalayabilmek için, hüzünlü anıları düşünmemek gerekir."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "text": "Kentlerin henüz mahalle kültürünü yitirmediği zamanlarda kedilerle insanlar arasında adı konmamış bir ortak yaşam söz konusuydu. Geleneksel mimarinin vazgeçilmez unsuru olan tek katlı evlerin avluları, çatıları, evlerin arasında kıvrılarak kaybolan Arnavut kaldırımlı sokaklar, birkaç meyve ağacının olduğu bahçeler kedilerin dolaşma alanıydı. Açık sofalar, teraslar ve pencereler de evlere giriş noktalarıydı. Tek katlı evler yerini çok katlı beton yığınlarına bıraktıkça kedilerle insanların yolu ayrıldı.\n\nBu metnin türüyle ilgili aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "A) Bir konuyla ilgili tespitler bilimsel gerçekliğe uygun olarak anlatılmıştır.",
+        "B) Anlatılmak istenenler bir olay örgüsü çerçevesinde dile getirilmiştir.",
+        "C) Düşünceler öznel bir üslupla, kanıtlama amacı güdülmeden açıklanmıştır.",
+        "D) Geçmişte yaşanan ve toplumda derin izler bırakan bir olay aktarılmıştır."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "text": "Genç nesillerin, Yunus Emre Divanı ve Safahat gibi klasiklerimizi okuyup anlayabilmesi için 'Dilimizin Zenginlikleri' projesi hayata geçirilmiştir. Proje kapsamında, öğrencilere sözlük kullanmayı teşvik edici eserler okutulmuş ve öğrencilerden kendi sözlüklerini oluşturmaları istenmiştir. Öğrenciler; Fuzuli'nin, Yunus Emre'nin, Mehmet Akif'in ve daha birçok büyük şairin kullandığı sözcükleri öğrenerek onların anlam dünyalarının içine girebilme imkânı bulmuştur. Bu projeyle öğrenciler sözlük kullanma alışkanlığı da kazanmıştır.\n\nBu parçayla ilgili,\nI. Nesnel yargılara yer verilmiştir.\nII. Karşılaştırma yapılmıştır.\nIII. Niteleyici sözcükler kullanılmıştır.\nIV. Tanık göstermeye başvurulmuştur.\n\nyargılarından hangileri doğrudur?",
+      "options": [
+        "A) I ve II",
+        "B) I ve III",
+        "C) II ve IV",
+        "D) III ve IV"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "text": "Bir metinde yer alan bilgi, durum veya olaylar arasında mantıksal tutarlılık bulunmaması anlatım açısından kusur sayılmaktadır.\n\nBu açıklamaya göre;\n\n'Arkasından vuran ışık, yüz hatlarını seçmemi engelliyordu ama söyleyeceklerini duymama ve anlamama engel olacak bir şey yoktu. Tüm dikkatimi ona vermiştim.'\n\nparçası aşağıdakilerden hangisiyle tamamlanırsa metnin anlatımı kusurlu olur?",
+      "options": [
+        "A) Elini cebinden çıkardı. 'Sana mühim bir haberim var, evlat.' dedi. Sesinden, yüzünün asıldığı belli oluyordu.",
+        "B) Bir iki kere öksürdü. Derin derin soludu. 'Sana mühim bir haberim var, evlat.' dedi. Oturduğu yerde ayağını sallamasından, çok heyecanlı olduğu anlaşılıyordu.",
+        "C) Ceketini çıkardı, katladı, koluna astı. Kravatını, serbest olan eliyle biraz gevşetti. 'Sana mühim bir haberim var, evlat.' dedi.",
+        "D) Gözlerinden bir sevinç dalgası geçti, dudağının kenarındaki bir gülümsemeyle 'Sana mühim bir haberim var, evlat.' dedi."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "text": "Milleti millet yapan unsurların başında dil gelir. Ana dilini geliştirip zenginleştiremeyen, yabancı dillerin istilalarından koruyamayan milletler ne milli bir kültür oluşturabilir ne de oluşmuş kültürlerini koruyabilirler. Yozlaşma ve yabancılaşma dille sınırlı kalmayarak zamanla bütün değerlerin yok olmasına ve millî birliğin, telafisi imkânsız zararlar görmesine sebep olur. Bilim, sanat ve eğitimde kendi dilini ihmal edip kullanmayan ve kendi diline sahip çıkması gerektiğini evlatlarına öğretemeyen bir millet yok olmaya mahkûmdur.\n\nBu metinden aşağıdaki yargıların hangisine ulaşılamaz?",
+      "options": [
+        "A) Milletler dilini koruyabilmek için sanatta, milli kültüre ait unsurları işlemelidir.",
+        "B) Dilindeki yabancılaşmayı önleyemeyen bir milletin varlığı tehlikeye düşer.",
+        "C) Varlığını sürdürmek isteyen milletler dil bilincini genç nesillere aktarmalıdır.",
+        "D) Dil, bir milletin bireyleri arasındaki bağı kuvvetlendiren bir unsurdur."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "text": "Grafiklerde, dünya su kaynaklarının dağılımı gösterilmiştir. Bu grafikler aşağıdaki haber metinlerinden hangisini desteklemez?",
+      "visual_description": {
+        "grafik_1": "Toplam Küresel Su Dağılımı: Tuzlu Su %96,5 | Tatlı Su %2,5",
+        "grafik_2": "Tatlı Su Dağılımı: Buzul %69 | Yer altı suları %30 | Yüzey/Diğer tatlı sular %1",
+        "grafik_3": "Yüzey ve Diğer Tatlı Suların Dağılımı: Donmuş toprak ve buzlar %69 | Göller %21 | Nemli toprak %3,65 | Atmosfer %3 | Bataklıklar %2,6 | Nehirler %0,49 | Yaşayan canlılar %0,26"
+      },
+      "options": [
+        "A) Buzulların bulunduğu bölgelerde sıcaklıklar sürekli arttığından buzulların oranı yıldan yıla düşmektedir. Eriyen buzulların okyanus ve denizlere karışması tatlı su kaynaklarının her yıl biraz daha azalmasına neden olmaktadır.",
+        "B) Tatlı su, dünyanın her yerinde sıvı hâlde ve kullanılabilecek durumda değildir. Tatlı suların %69'u buzullarda katı hâlde iken, %30'u yer altı suları, geri kalan kısmı yüzey suları ve diğer tatlı sular olarak bulunur.",
+        "C) Yeryüzündeki canlılığın en önemli kaynağı olan su, dünyamızda farklı yerlerde ve farklı oranlarda bulunur. Bu suyun büyük bir kısmı okyanus ve denizlerde tuzlu su hâlindedir. Ancak canlılar büyük ölçüde tatlı suya gereksinim duyar ve dünyadaki suyun çok az bir miktarı tatlı sudur.",
+        "D) Tatlı su kaynaklarının çoğunu buzullar, yüzeydeki tatlı suların çoğunu da donmuş topraklar oluşturmaktadır. Zaten kısıtlı olan tatlı su kaynaklarının bu nedenle daha da kısıtlanmış olması insanlar için büyük bir sorundur."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "text": "Tablo 1'de rüzgâr türlerinin hızı, Tablo 2'de ise bir bölgedeki saatlik rüzgâr türleri verilmiştir. Rüzgâr türbinlerinin çalışma prensibi şöyledir: 'Tatlı rüzgâr' ve altında çalışmaz (0 üretim). 'Fırtına' düzeyinde sistem kendini korur ve üretim sabitlenir (Fırtınamsı rüzgar seviyesine). 'Kuvvetli fırtına' ve üzerinde ise kendini tamamen kapatır (0 üretim).",
+      "visual_description": {
+        "tablo_1_ruzgar_siralamasi": "Hafif < Tatlı < Orta < Sert < Kuvvetli < Fırtınamsı < Fırtına < Kuvvetli Fırtına < Tam Fırtına",
+        "tablo_2_saatlik_veri": {
+          "11.00-11.30": "Hafif Rüzgâr (Üretim Yok)",
+          "12.00-12.30": "Fırtına (Üretim Sabit/Sınırlı)",
+          "13.00-13.30": "Tam Fırtına (Üretim Yok - Kapanma)",
+          "14.00-14.30": "Kuvvetli Rüzgâr (Yüksek Üretim)",
+          "15.00-15.30": "Orta Rüzgâr (Düşük/Orta Üretim)",
+          "16.00-16.30": "Fırtınamsı Rüzgâr (Yüksek Üretim)",
+          "17.00-17.30": "Fırtına (Üretim Sabit/Sınırlı)"
+        },
+        "grafik_secenekleri_ozeti": "Seçeneklerdeki grafikler saatlere göre elektrik üretim miktarını (kWh) çizgi grafik olarak göstermektedir. Doğru grafik, 13.00-13.30 aralığında sıfıra inmeli, 12.00 ve 17.00'de sabit bir değerde kalmalıdır."
+      },
+      "options": [
+        "A) Grafik A: 13.00'te üretim zirve yapmış görünüyor (Yanlış).",
+        "B) Grafik B: 11.00'de sıfır, 12.00'de orta seviye, 13.00'te sıfır (kapanma), 14.00 ve 16.00'da yüksek, 17.00'de tekrar 12.00 seviyesine inmiş.",
+        "C) Grafik C: 13.00'te üretim devam ediyor görünüyor (Yanlış).",
+        "D) Grafik D: Tüm saatlerde üretim var görünüyor (Yanlış)."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "text": "Yan flütte bazı notaları çalmak için kullanılan parmaklar tabloda verilmiştir. Görsellerde yan flüt üzerindeki dolu daireler o tuşa basıldığını gösterir. Soru: Aşağıdaki görsellerden hangisi Tablo'daki 'Re, Mi, Fa, Si' notalarından herhangi birini GÖSTERMEMEKTEDİR?",
+      "visual_description": {
+        "nota_tablosu": {
+          "Re": "Sol el 2 ve 3. parmak",
+          "Mi": "Sol el 1 ve 2. parmak + Sağ el 1 ve 2. parmak",
+          "Fa": "Sol el 1 ve 3. parmak + Sağ el 1. parmak",
+          "Si": "Sol el 1 ve 3. parmak"
+        },
+        "secenekler_analizi": {
+          "A_Gorseli": "Görselde Sol el 1. ve 3. parmak, Sağ el 1. parmak basılıdır. (Bu 'Fa' notasıdır)",
+          "B_Gorseli": "Görselde Sol el 1. ve 2. parmak, Sağ el 1. ve 2. parmak basılıdır. (Bu 'Mi' notasıdır)",
+          "C_Gorseli": "Görselde Sol el 1. ve 2. parmak, Sağ el 1. parmak basılıdır. (Bu kombinasyon tabloda yoktur)",
+          "D_Gorseli": "Görselde Sol el 1. ve 3. parmak basılıdır. (Bu 'Si' notasıdır)"
+        }
+      },
+      "options": [
+        "A) Görsel A (Fa notasına karşılık gelir)",
+        "B) Görsel B (Mi notasına karşılık gelir)",
+        "C) Görsel C (Tablodaki herhangi bir nota ile eşleşmez)",
+        "D) Görsel D (Si notasına karşılık gelir)"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "text": "Konya'nın Hadim İlçesi(I), Türkiye'de kiraz hasadının en geç yapıldığı yerlerdendir. Burada yetiştirilen 'Ziraat 900'(II) cinsi kirazlar Orta Doğu, Avrupa Birliği ve Asya Ülkeleri(III) başta olmak üzere birçok ülkede Türk Kirazı(IV) olarak biliniyor.\n\nBu parçadaki numaralanmış sözlerden hangisinin yazımı doğrudur?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "text": "Şehir, kendi kimliğini belirlemek ve kendini daha iyi tanımak için aynaya baktığı zaman insanla karşılaşır. Çünkü tüllerin arkasında durup ona ruhunu katan, şeklini veren, estetik duygularını yansıtan kişiler vardır. Bazen onca insanın arasında öne çıkan kişiler olur, varlıklarıyla şehrin tarihine damga vururlar. İstanbul denince Fatih Sultan Mehmet'i, Samsun denince Mustafa Kemal Atatürk'ü anmadan geçemeyeceğimiz gibi.\n\nBu parçada virgülün (,) aşağıdaki işlevlerinden hangisinin kullanımı yoktur?",
+      "options": [
+        "A) Sıralı cümleleri birbirinden ayırmak için konur.",
+        "B) Uzun cümlelerde yüklemden uzak düşmüş olan özneyi belirtmek için konur.",
+        "C) Birbiri ardınca sıralanan eş görevli kelime ve kelime gruplarının arasına konur.",
+        "D) Cümle içinde ara sözleri veya ara cümleleri ayırmak için ara sözlerin veya ara cümlelerin başına ve sonuna konur."
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "text": "'İlkbahar, Yaz, Sonbahar, Kış' oyununda oyunculardan birisi hakem seçilir. Hakemin görevi oyunu yönetmek, yani mevsimlerin isimlerini söylemektir. Ebe olmak(I) üzere iki oyuncu seçilir. Ebelerin amacı hakemin söylediği mevsimlerdeki oyuncuları yakalamaktır(II). Oyuncular ikişerli grup oluşturarak(III) bir mevsim adı seçerler ve her grup bir köşeye çekilir(IV).\n\nBu parçadaki numaralanmış sözcüklerden hangisi fiilimsi değildir?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "text": "Anadolu kültürü, tüm dünyaya barışı ve huzuru getirmeyi hedefleyen Türkiye Yüzyılı'nın temel dayanak noktasıdır.\n\nBu cümlenin türüyle ilgili aşağıdakilerden hangisi yanlıştır?",
+      "options": [
+        "A) Anlamına göre olumlu cümledir.",
+        "B) Yüklemin yerine göre kurallı cümledir.",
+        "C) Yüklemin türüne göre fiil cümlesidir.",
+        "D) Yapısına göre fiilimsi bulunan cümledir."
+      ],
+      "answer": "C"
+    }
+  ]
+}
