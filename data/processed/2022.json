@@ -1,0 +1,347 @@
+{
+  "year": 2022,
+  "course": "Türkçe",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdakilerin hangisinde altı çizili söz cümleye 'belli bir sıra gözetmeksizin' anlamı katmıştır?",
+      "options": [
+        "A) Yaptığım işleri orada burada anlatıyor, beni yere göğe sığdıramıyordu.",
+        "B) Romanın orasından burasından parçalar okuyor, yorumlamamızı istiyordu.",
+        "C) Hayat bu zamana kadar beni oradan oraya sürükleyip durdu.",
+        "D) Odanın orasında burasında kıyafetler duruyordu."
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Sözcükte Anlam",
+        "alt_konu": "Anlam İlişkileri",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 2,
+      "text": "Yazar, eserinde günümüz dünyasının en tartışmalı sorunlarından biri olan internetin kullanımıyla ilgili çarpıcı tespitlerde bulunarak toplumun bu konudaki bulanık düşüncelerini berraklaştırmıştır. Bu cümledeki altı çizili sözle anlatılmak istenen aşağıdakilerden hangisi değildir?",
+      "options": [
+        "A) Kuşkudan kurtarmak",
+        "B) Aydınlığa kavuşturmak",
+        "C) Tereddütleri gidermek",
+        "D) Yanlışlıkları düzeltmek"
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 3,
+      "text": "(I) Kitaplar, dergiler, makaleler kısaca kâğıt üzerine düşmüş her sözcük anlaşılmak için okuyucudan gayret bekler. (II) Yazar ne kadar açık anlatırsa anlatsın, okurun kültür ve eğitim seviyesi ne kadar yüksek olursa olsun anlatılmak istenen anlaşılmayabilir veya farklı anlaşılabilir. (III) Bunda yazarla okurun hayata bakış açılarının, bilgi ve birikimlerinin farklı olmasının önemli bir etkisi vardır. (IV) Yazarla okur bir araya gelip yazılanlar üzerinde tartışmadığı sürece bu durum sürüp gider.  Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi söylenemez?",
+      "options": [
+        "A) I. cümlede, metnin anlaşılması için okura düşen görevden bahsedilmiştir.",
+        "B) II. cümlede, yazılan bir metnin amacına ulaşamayabileceği dile getirilmiştir.",
+        "C) III. cümlede, yazarların hayata okurlardan daha geniş bir açıyla baktıkları vurgulanmıştır.",
+        "D) IV. cümlede okurun, yazarın anlattıklarını doğru anlaması için gerekli koşul belirtilmiştir."
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 4,
+      "text": "(I) Şairlerin ilk şiir kitapları çok önemlidir. (II) Sanat hayatları boyunca yayımladıkları şiir kitaplarının sayısı da önemlidir. (III) Çünkü onlarda hem taptaze bir heves hem de uzun sürmesi arzulanan bir yolculuğa dair işaretler vardır. (IV) Şairlerin sanat hayatlarının başlangıcı olan kitaplar, zamanla açılıp serpilecek şiirlerinin şifresi gibidir. (V) Bir şairin şiir anlayışını daha iyi belirlemek için de onun ilk adımına bakmak gerekir. Bu metindeki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
+      "options": [
+        "A) II",
+        "B) III",
+        "C) IV",
+        "D) V"
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 5,
+      "text": "'Hayat Yaz Yağmuru Gibi' adlı tiyatro oyununda farklı insan karakterleri geçiş yapar sahneden. '----' ilk çıkar sahneye. Hafif çiseleyen bir yaz yağmurunda bile elleri ayaklarına dolaşır onların. Pireyi deve yaparlar bir anda. Yaz yağmuru tufana dönüşürken kulakları tıkalı, gözleri kapalı olanlar da vardır. Evlerinin penceresinden izlerler etrafı, '----' diye adlandırılırlar. Sırılsıklam ıslanma pahasına tufana göğüs gerenler de olur. Sel götürmesin diye etrafı, binbir türlü yol denerler. '----' diye bilinir onlar. Bir de '----' vardır ki yağmurun tufana dönmesini bekleyip kendi önerilerine uymayanları suçlamakla mutlu olurlar. Tufan olurken etrafta göremezsiniz onları. Ne zaman ki tufan diner, tiyatro biter; o zaman sahne alırlar.  Aşağıdakilerden hangisi bu metinde boş bırakılan yerlerden herhangi birine getirilemez? ",
+      "options": [
+        "A) Dünyayı ben mi kurtaracağımcılar",
+        "B) Ben demiştimciler",
+        "C) Eyvah bittikçiler",
+        "D) Sen yaparsıncılar"
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 6,
+      "text": "Pelin: Melis, burası yüzlerce yıl önce yaşanan o şehir değil artık. Hâlâ o şehirdeymiş gibi o zamanın koşullarını sürdürmeye çalışarak yaşaman anlamsız. Bugünü anlaman, doğru değerlendirmen için bundan kurtulmalısın. \nMelis: Oturduğumuz mahalle geçmiş kokuyor, geçmişin izleri yanı başımızda. Mesela mahallemizin adı Hancı Değirmeni, derenin kenarındaki değirmenden alıyor adını. Yüz yıl önce de buğday öğütülüyormuş, şimdi de... Bu süreklilik gerçekten etkilemiyor mu seni?  \nBu konuşmaya göre aşağıdakilerden hangisi söylenemez?",
+      "options": [
+        "A) Pelin insanın, içinde yaşadığı çağın şartlarına uygun yaşaması gerektiğini düşünmektedir.",
+        "B) Melis, Pelin'in geçmişi değersiz görmesine şaşırmaktadır.",
+        "C) Pelin, Melis'in bakış açısını değiştirmesi gerektiğini dile getirmektedir.",
+        "D) Melis yaşadığı yeri, o yerin geçmişle olan bağlarıyla değerlendirmektedir."
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 7,
+      "text": "(Soru bir grafik yorumlama sorusudur: Amerika, Gürcistan, Fransa ve İtalya'nın 2006, 2008 ve 2011 yıllarında ülke dışına çıkan ziyaretçi sayılarını gösteren grafik verilmiştir.) Bu grafik aşağıdaki haber metinlerinden hangisini desteklemektedir?",
+      "options": [
+        "A) Günümüzdeki en büyük sorunlardan biri göçtür. Her ne kadar Amerika, Fransa ve İtalya gibi gelişmiş ülkelerde göç edenlerin sayısı az gibi görünse de bu sayı hep artmıştır.",
+        "B) Son yıllarda bazı ülkeleri ziyaret eden turist sayısı artmıştır. Bu anlamda 2006, 2008 ve 2011 yıllarında Amerika'ya gelen ziyaretçi sayısı Gürcistan ve Fransa'nın gerisinde kalmıştır.",
+        "C) İnternetin etkisiyle insanların değişik ülkeleri görme isteği yurt dışına çıkan ziyaretçi sayılarını artırmıştır. Yıllara göre yurt dışına çıkan ziyaretçi sayısında Gürcistan başı çekerken onu Fransa, Amerika ve İtalya takip etmiştir.",
+        "D) Amerika, Gürcistan, Fransa ve İtalya'nın iş nedeniyle ülke dışına çıkan ziyaretçi sayısı sürekli artmıştır. İtalya ekonomik durgunluğa rağmen ülke dışına çıkan ziyaretçi sayısında diğer ülkeleri geride bırakmıştır."
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Grafik Yorumlama",
+        "alt_konu": "Veri Analizi",
+        "kazanim": "Görsel Okuma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 8,
+      "text": "İnsanları bir arada en iyi ne tutabilir? Korku mu? Korku bir süre sonra insanları ikiyüzlülüğe sürükler, çok geçmeden birbirine düşürür. Baskı veya zorbalık mı? Baskı ve zorbalık olanca sertliğiyle de ortaya çıksa gücü her yere, herkese erişemez. Diyelim ki erişti. Çok geçmeden korku kaplar ortalığı, yalnızlığa götürür insanı. Alışkanlıklar mı? Alışkanlıklar da zamanla yitirir değerini, gerçek bir bağ oluşturmaz insanlar arasında. Zayıflar, gevşer o bağlar. İnsanları bir arada en iyi sevgi tutabilir kanımca. İnsanları ürkütmeyen, zorlamayan; sevgidir ancak sarıp sarmalayabilen. Bu parça aşağıdaki metin türlerinden hangisine örnek olabilir?",
+      "options": [
+        "A) Anı",
+        "B) Deneme",
+        "C) Makale",
+        "D) Köşe yazısı (Fıkra)"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 9,
+      "text": "Atların çeşitli yürüyüş biçimleri vardır. Kenter yürüyüşünde atın ayak hareketlerinin aşamaları şunlardır: 1. aşama: Arka ayaklardan biri, örneğin sol arka ayak, yere basar ve atı öne doğru iter. Bu sırada diğer üç ayak havadadır... 2. aşama: Sağ arka ve çaprazındaki ayak yere basar... 3. aşama: Ön sağ ayak yere değerken çaprazındaki ayak yere basmaktadır. 4.  aşama: At kısa bir süreliğine de olsa havada asılı kalır... Buna göre, aşağıdaki görsellerden hangisi 'kenter yürüyüşü'nün numaralanmış aşamalarından herhangi birine ait olamaz?",
+      "options": [
+        "A) Görsel A (Tüm ayakların pozisyonu uyumsuzdur)",
+        "B) Görsel B",
+        "C) Görsel C",
+        "D) Görsel D"
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Sözel Mantık",
+        "alt_konu": "Görsel Okuma",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 10,
+      "text": "I. Uzmanlar, Fransa'da Toulouse Müzesinde seksen yıldır sergilenen 17 bin yıllık deniz kabuğunu yeniden incelediler. II. İnceleme sonucunda deniz kabuğunun, türünün en eski üflemeli çalgısı olduğunu keşfettiler. III. Deniz kabuğu 1931'de Pirenelerdeki bir avcı-toplayıcı mağarasında bulunmuştu. Numaralanmış cümlelerin anlamca doğru bir biçimde birleştirilmiş hâli aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Fransa'da seksen yıldır sergilendiği Toulouse Müzesi uzmanları tarafından yeniden incelenen ve bu inceleme sonucunda türünün en eski üflemeli çalgısı olduğu keşfedilen 17 bin yıllık deniz kabuğu 1931'de Pirenelerdeki bir avcı-toplayıcı mağarasında bulunmuştu.",
+        "B) 1931'de Pirenelerdeki bir avcı-toplayıcı mağarasında bulunan, türünün en eski üflemeli çalgısı olan ve Fransa'da Toulouse Müzesinde seksen yıldır sergilenen deniz kabuğunu yeniden inceleyen uzmanlar deniz kabuğunun 17 bin yıllık olduğunu keşfetti.",
+        "C) Fransa'da seksen yıldır Toulouse Müzesinde sergilenen ve 1931'de Pirenelerdeki bir avcı-toplayıcı mağarasında bulunan deniz kabuğunu yeniden inceleyen uzmanlar, deniz kabuğunun 17 bin yıllık ve türünün en eski üflemeli çalgısı olduğunu keşfettiler.",
+        "D) 1931'de Pirenelerdeki bir avcı-toplayıcı mağarasında bulunan ve Fransa'da Toulouse Müzesinde seksen yıldır sergilenen 17 bin yıllık deniz kabuğunu yeniden inceleyen uzmanlar, bu inceleme sonucunda deniz kabuğunun, türünün en eski üflemeli çalgısı olduğunu keşfettiler."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Metinler Arası İlişki Kurma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 11,
+      "text": "'Hem kemankeş hem çilekeş' deyiminin artık gündelik hayatın içindeki konuşmalarda eskisi kadar kullanılmadığını fark ediyorum. Bu deyim acılarla yaşayan ve sıkıntı çeken insanlar için kullanılır. Atalarımız ok attıkları yayın kavisli kısmına keman, yayı germeye yarayan ipe de kiriş veya çile demişlerdir. Dönemin askerlerinin ağzından 'Çok çile çektik vesselam! Biz ne çileler çektik.' sözleri duyulduğunda aslında 'Kirişe asıldık.' demek istedikleri ancak 'çile' sözcüğünün diğer anlamını da ima ettikleri anlaşılırmış.  Bu metnin anlatımıyla ilgili aşağıdakilerden hangisi söylenemez? ",
+      "options": [
+        "A) Tartışmacı bir anlatım vardır.",
+        "B) Karşılaştırma yapılmıştır.",
+        "C) Tanımlamaya başvurulmuştur.",
+        "D) Gözlemden yararlanılmıştır."
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 12,
+      "text": "Gazeteci: Polisiye roman türünde oldukça başarılısınız. ----? \nYazar: Hikâyeme uygun polisiye olayları kendim kurguluyorum. Teknik ayrıntılar için adli tıp raporlarından ve gazete haberlerinden yararlanıyorum. Bazen polis kaynaklarına geçmiş olayları da inceliyorum.\nGazeteci: ----? \nYazar: Hiç kimsenin, yazarken kendini kısıtlamasından yana değilim. Ama benim için vicdanım, yazarlığımdan önce geliyor. Çünkü ben aynı zamanda bir babayım, torun sahibiyim ve arkadaşlarım var. Ben, suçluyu özendirici olmaktan uzak duruyorum.\nBu konuşmada boş bırakılan yerlere düşüncenin akışına göre sırasıyla aşağıdakilerden hangisi getirilmelidir?",
+      "options": [
+        "A) Romanlarınızı kurgularken yaşanmış olaylara ve gerçek kaynaklara başvuruyor musunuz / Eserlerinizde karakterlerin psikolojisini iyi yansıttığınız biliniyor. Bu başarıyı neye borçlusunuz",
+        "B) Polisiye roman yazarken teknik ayrıntılar ne kadar önemlidir / Gençler bazen suçluların dünyasından etkilenip onlara özenebiliyor. Bu durum, yazarken sizi kısıtlıyor mu",
+        "C) Romanlarınızı yazarken nasıl bir yöntem izliyorsunuz / Polisiye romanlarda çoğu zaman suçlular kahramanlaştırılıyor. Siz de romanlarınızda kahraman suçlular yaratıyor musunuz",
+        "D) Polisiye roman yazarları için konu ve kaynak bulmak zor mudur / Sanatçıların, eserlerini yazarken yakın çevresindeki kişi ve olaylardan etkilendikleri biliniyor. Siz bu konuda ne düşünüyorsunuz"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 13,
+      "text": "Kekova, bu yaz tatilinde gezdiğim koylar içinde en güzel olanıydı. Aşağıdakilerden hangisi anlamca bu cümleye en yakındır?",
+      "options": [
+        "A) Bu yaz tatilinde gezdiğim Kekova kadar güzel bir koy yok.",
+        "B) Bu yaz tatilinde gezdiğim koylardan hiçbiri, Kekova kadar güzel değildi.",
+        "C) Kekova, bu yaz tatilinde gezdiğim tek güzel koydu.",
+        "D) Kekova, bu yaz tatilinde gezdiğim en güzel koylardan biriydi."
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 14,
+      "text": "I. Misafirler gittikten sonra babası bulaşıkları, annesi de evi süpürdü. \nII. İlk gençlik yıllarında okunan kitaplar unutulmaz bu yüzden hep saklarız. \nIII. Önümüze çıkan bütün engelleri aşarak bugünlere gelindi. \nIV. Spora gidecek çocuklar için biraz zeytin, peynir biraz da yumurta haşladım. \nNumaralanmış cümlelerin hangilerinde aynı tür anlatım bozukluğu vardır?",
+      "options": [
+        "A) I ve II",
+        "B) I ve IV",
+        "C) II ve III",
+        "D) III ve IV"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Anlatım Bozukluğu",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 15,
+      "text": "Dört kişilik bir arkadaş grubu (Gizem, Ozan, Emrah, Selda) tabloda verilen roman ve şiir kitaplarını belli bir sırayla dönüşümlü olarak okumuştur... Kişilerin yaptıkları aylık kitap okuma etkinlik çizelgesinin ilk iki ayı tabloda verilmiştir. Bu bilgilere göre, aşağıdakilerin hangisinde kişinin üçüncü ayda okuduğu kitap doğru verilmiştir?",
+      "options": [
+        "A) Emrah - 'Küçük Ağa' romanı",
+        "B) Gizem - 'Otuz Beş Yaş' şiir kitabı",
+        "C) Selda - 'Sevgilerde' şiir kitabı",
+        "D) Ozan - 'Çalıkuşu' romanı"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Sözel Mantık",
+        "alt_konu": "Mantıksal Akıl Yürütme",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 16,
+      "text": "Aşağıdaki tabloda Ege ve Marmara bölgelerimizde yer alan bazı illerimizdeki 'İyi Tarım Uygulamaları' ile ilgili veriler bulunmaktadır (Tablo: İller, Üretici Sayısı, Üretim Alanı, Ürün Miktarı). Bu tablodan, I. Marmara Bölgesi'nde, Ege Bölgesi'ne göre üretici başına düşen üretim alanı daha büyüktür. II. Marmara Bölgesi'ndeki illerde üretim alanı ne kadar büyükse ürün miktarı o kadar fazladır. III.  Ege Bölgesi'nde dönüm başına düşen ürün miktarı, Marmara Bölgesi'nden daha fazladır. yargılarından hangileri çıkarılabilir?",
+      "options": [
+        "A) Yalnız I",
+        "B) Yalnız II",
+        "C) I ve III",
+        "D) II ve III"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Grafik Yorumlama",
+        "alt_konu": "Veri Analizi",
+        "kazanim": "Görsel Okuma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 17,
+      "text": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+      "options": [
+        "A) Balkonumuz bir uçtan bir uca hurdalarla dolu olduğu için öyle oturulabilir bir yerde değil.",
+        "B) Türkiye'de çevrenin korunması amacıyla 11 Ağustos 1983 tarihinde Çevre Kanunu yürürlüğe girmiştir.",
+        "C) Yörede namı bilinen Çelikli Pehlivan, altmış beş yaşında olmasına rağmen çok dinç görünüyordu.",
+        "D) Radyodaki ses mi beni etkiledi bilmiyorum, belki de batmakta olan akşam güneşi..."
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Yazım Kuralları",
+        "alt_konu": "Yazım Yanlışları",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 2
+      }
+    },
+    {
+      "id": 18,
+      "text": "'Ahmet yorgun olduğu için bugün erkenden uyudu.' cümlesinde 'uyudu' fiilini gerçekleştiren özne (Ahmet) bellidir. Bu yüzden fiil, öznesine göre etken; nesne almayan bir fiil olduğu için de nesnesine göre geçişsiz çatılıdır.  Buna göre aşağıdakilerin hangisinde etken, geçişsiz bir fiil vardır?",
+      "options": [
+        "A) Kimi insanlar sadece davranışlarıyla kimi insanlar da konuşmalarıyla değerlendirilir.",
+        "B) Kar taneleri ne güzel anlatıyor, birbirlerine zarar vermeden yol almanın mümkün olduğunu.",
+        "C) Mutlu olmayı yarına bırakmak, karşıya geçmek için nehrin durmasını beklemeye benzetilir.",
+        "D) En yükseğe erişmek için en aşağıdan başlayın."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Fiil Çatısı",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 19,
+      "text": "Bilgi: Yer tamlayıcısı cümlede yönelme (yaklaşma), bulunma (kalma), uzaklaşma (ayrılma) bildirerek yüklemi tamamlar. (I) Tropikal kuşaktaki okyanuslarda yılda ortalama 80 tropik fırtına meydana gelir. (II) Koşullara göre, bu şiddetli fırtınalar kasırgalara dönüşebilir. (III) Kasırgaların hızı saatte 119 km'yi aşabilir. (IV) Bu nedenle, Afrika'nın batı kıyılarında oluşan tropik bir fırtına Kuzey Amerika'nın doğu kıyılarına ulaşabilir.  Bu parçadaki numaralanmış cümlelerin hangisinde yer tamlayıcısı yoktur?",
+      "options": [
+        "A) I",
+        "B) II",
+        "C) III",
+        "D) IV"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Yer Tamlayıcısı",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 20,
+      "text": "Akşamüstü şehir her zamankinden gürültülüydü () araç kornaları () seyyar satıcı bağırışları sarmıştı şehri () Gençler meydanda hep bir ağızdan bağırıyorlar () Uğurlar ola () Bu metinde yay ayraçla boş bırakılan yerlere sırasıyla aşağıdaki noktalama işaretlerinden hangisi getirilmelidir?",
+      "options": [
+        "A) (;) (,) (...) (\") (\")",
+        "B) (;) (,) (.) (:) (!)",
+        "C) (:) (;) (...) (\") (\")",
+        "D) (:) (;) (.) (:) (!)"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Yazım Kuralları",
+        "alt_konu": "Noktalama İşaretleri",
+        "kazanim": "Noktalama İşaretlerini Doğru Kullanma",
+        "tahmini_zorluk": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "year": 2018,
+  "course": "Türkçe",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Okuru olmayan bir ülkede dergi çıkartmak, suya yazı yazmak gibidir. Tutku olmasa ne kadar da imkânsız bir iş. Bu, kitap eleştirisi üzerine çıkan bir dergiyse hele... Malum, özellikle genç okurların yönelimi daha çok edebiyat ve şiir dergilerine olurken eleştiri dergileri maalesef rafların arkasında kalıyor.\n\nBu metinde altı çizili sözlerle anlatılmak istenenler aşağıdakilerin hangisinde sırasıyla verilmiştir?",
+      "options": [
+        "A) büyük çaba gerektirmek - satış amacı gütmemek",
+        "B) kalıcı olmaya çalışmak - ilgi çekmemek",
+        "C) boş yere uğraşmak - yeterince tercih edilmemek",
+        "D) sıkıntılara göğüs germek - köklü bir geçmişe sahip olmak"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 2,
+      "text": "Eğer yere uzanmış, hareketsiz, sessiz bir geyik yavrusu görürseniz endişelenmeniz gereken bir durum yoktur çünkü mutlaka annesi yakınlarda olmalı.\n\nBu cümledeki anlatım bozukluğunu gidermek için aşağıdaki değişikliklerden hangisi yapılmalıdır?",
+      "options": [
+        "A) \"yakınlarda olmalı\" sözü yerine \"yakınlardadır\" kelimesi getirilmeli.",
+        "B) \"endişelenmeniz\" kelimesi yerine \"endişe duymanız\" ifadesi getirilmeli.",
+        "C) \"sessiz\" kelimesi cümleden atılmalı.",
+        "D) \"uzanmış\" kelimesi yerine \"yatmış\" kelimesi getirilmeli."
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Anlatım Bozukluğu",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 3,
+      "text": "Son yıllarda toplumumuzun görsel sanatlar sevgisinde bir kımıldanma görülüyor. Her sanat dalı yaşama açılan pencerelerden biridir. Pencereleri hepten kapanmış binada ömür geçirmeye tahammül edenler, ruh çölünde yaşıyor demektir. Çölden dışarı adım atanlar, yaşadıkları yerlerin duvarlarına resim asmaya, heykelle ilgilenmeye, fotoğraf çekmeye başladılar. Bu, övgüye değer!\n\nBu metinde geçen \"Pencereleri hepten kapanmış binada ömür geçirmek\" sözüyle anlatılmak istenen aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Çevresindekilerle iletişime kapalı olmak",
+        "B) Sanattan yoksun bir hayat sürdürmek",
+        "C) Hayata farklı açılardan bakamamak",
+        "D) Tek bir sanat dalına yoğunlaşmak"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 4,
+      "text": "(I) Japonya, uzay çöplerini temizlemek için ürettiği metalik örgü ağını Uluslararası Uzay İstasyonu'na ulaştırdı. (II) 700 metrelik bu devasa ağ, bir Japon balık ağı üreticisi tarafından tasarlandı. (III) Tıpkı bir balık ağı gibi uzaya salınıp gezegenimizin çevresini büyük uzay çöplerinden temizleyecek. (IV) Metal ağ ile yapılacak denemelerin başarılı olması durumunda aynı prensiple çalışan küçük robot araçlar üretilecek.\n\nBu metinde numaralanmış cümlelerin hangisinde koşul anlamı vardır?",
+      "options": [
+        "A) I.",
+        "B) II.",
+        "C) III.",
+        "D) IV."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Koşul Anlamı",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 5,
+      "text": "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine \"elektronik emzik\" niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. Bu bağımlılığa dikkat çekmek için \"Teknolojisiz Bir Gün\" adlı sosyal sorumluluk projesi başlatıldı. Projenin çıkış noktası şöyle açıklanıyor: Teknoloji, yemek gibi bir ihtiyaç lakin yemeğin fazlasının obeziteye yol açması gibi teknolojinin fazlası da \"teknoloji bağımlılığına yol açıyor. Ekran bağımlılığı erkeklerde mobil oyun, bayanlarda sosyal medyayı kontrol etme isteğiyle ortaya çıkıyor. Ortaöğretim çağındaki bir çocuk yılda 1000 saatini okulda geçirirken 1500 saatini TV ve bilgisayar başında geçiriyor. Gençler her gün zamanlarının 229 dakikasını cep telefonu kullanarak öldürüyor. Türkiye'de bir kişi günde ortalama 6 saat TV izlerken kitap okumaya yalnızca 1 dakika ayırıyor. Bütün bunlara çözüm olarak da haftada bir gün \"teknoloji diyeti\" tavsiye ediliyor. Kadın, erkek, yaşlı, genç farklı kişilere \"Teknolojik cihazlar olmadan, bir gününüzü nasıl geçirirdiniz?\" sorusuna en fazla verilen cevap \"Kitap okurum.\" oluyor. Diğer cevaplarsa \"Çocuklarımla vakit geçiririm, oyun oynarım, yürüyüş yaparım, resim çizerim, yeni yerler keşfederim, kütüphaneye giderim...\" şeklinde sıralanıyor. Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak sevdiklerinize vakit ayırıp neler kaçırdığınızı fark edebilirsiniz.\n\nBu metnin dil ve anlatımıyla ilgili aşağıda verilenlerden hangisi yanlıştır?",
+      "options": [
+        "A) Yazar, düşüncelerini sorular yoluyla anlatmıştır.",
+        "B) Karşılaştırmadan yararlanılmıştır.",
+        "C) Öznel ifadelere yer verilmiştir.",
+        "D) Düşünce, sayısal verilerle kanıtlanmaya çalışılmıştır."
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 6,
+      "text": "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine \"elektronik emzik\" niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. Bu bağımlılığa dikkat çekmek için \"Teknolojisiz Bir Gün\" adlı sosyal sorumluluk projesi başlatıldı. Projenin çıkış noktası şöyle açıklanıyor: Teknoloji, yemek gibi bir ihtiyaç lakin yemeğin fazlasının obeziteye yol açması gibi teknolojinin fazlası da \"teknoloji bağımlılığına yol açıyor. Ekran bağımlılığı erkeklerde mobil oyun, bayanlarda sosyal medyayı kontrol etme isteğiyle ortaya çıkıyor. Ortaöğretim çağındaki bir çocuk yılda 1000 saatini okulda geçirirken 1500 saatini TV ve bilgisayar başında geçiriyor. Gençler her gün zamanlarının 229 dakikasını cep telefonu kullanarak öldürüyor. Türkiye'de bir kişi günde ortalama 6 saat TV izlerken kitap okumaya yalnızca 1 dakika ayırıyor. Bütün bunlara çözüm olarak da haftada bir gün \"teknoloji diyeti\" tavsiye ediliyor. Kadın, erkek, yaşlı, genç farklı kişilere \"Teknolojik cihazlar olmadan, bir gününüzü nasıl geçirirdiniz?\" sorusuna en fazla verilen cevap \"Kitap okurum.\" oluyor. Diğer cevaplarsa \"Çocuklarımla vakit geçiririm, oyun oynarım, yürüyüş yaparım, resim çizerim, yeni yerler keşfederim, kütüphaneye giderim...\" şeklinde sıralanıyor. Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak sevdiklerinize vakit ayırıp neler kaçırdığınızı fark edebilirsiniz.\n\nBu metinde asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+      "options": [
+        "A) İnsan, zamanını iyi değerlendirmelidir.",
+        "B) Teknoloji bağımlılığı projelerle önlenmelidir.",
+        "C) Bağımlılık yapan şeylerden uzak durulmalıdır.",
+        "D) Teknoloji ölçülü kullanılmalıdır."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 7,
+      "text": "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine \"elektronik emzik\" niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. Bu bağımlılığa dikkat çekmek için \"Teknolojisiz Bir Gün\" adlı sosyal sorumluluk projesi başlatıldı. Projenin çıkış noktası şöyle açıklanıyor: Teknoloji, yemek gibi bir ihtiyaç lakin yemeğin fazlasının obeziteye yol açması gibi teknolojinin fazlası da \"teknoloji bağımlılığına yol açıyor. Ekran bağımlılığı erkeklerde mobil oyun, bayanlarda sosyal medyayı kontrol etme isteğiyle ortaya çıkıyor. Ortaöğretim çağındaki bir çocuk yılda 1000 saatini okulda geçirirken 1500 saatini TV ve bilgisayar başında geçiriyor. Gençler her gün zamanlarının 229 dakikasını cep telefonu kullanarak öldürüyor. Türkiye'de bir kişi günde ortalama 6 saat TV izlerken kitap okumaya yalnızca 1 dakika ayırıyor. Bütün bunlara çözüm olarak da haftada bir gün \"teknoloji diyeti\" tavsiye ediliyor. Kadın, erkek, yaşlı, genç farklı kişilere \"Teknolojik cihazlar olmadan, bir gününüzü nasıl geçirirdiniz?\" sorusuna en fazla verilen cevap \"Kitap okurum.\" oluyor. Diğer cevaplarsa \"Çocuklarımla vakit geçiririm, oyun oynarım, yürüyüş yaparım, resim çizerim, yeni yerler keşfederim, kütüphaneye giderim...\" şeklinde sıralanıyor. Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak sevdiklerinize vakit ayırıp neler kaçırdığınızı fark edebilirsiniz.\n\nMetnin son cümlesinin ifade ettiği anlam aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Eleştiri",
+        "B) Öneri",
+        "C) Varsayım",
+        "D) Ön yargı"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 8,
+      "text": "Teknolojik cihazları hayatımızın her sahasında görmek mümkün. Ancak teknolojiyi bilinçsiz kullanmaktan en fazla zararı yeni nesil görüyor. Çünkü doğdukları andan itibaren akıllı cihazlar onların ellerine \"elektronik emzik\" niyetiyle veriliyor. Bu susturucu emzikle başlayan tanışma ileride teknoloji bağımlılığına dönüşüyor. Bu bağımlılığa dikkat çekmek için \"Teknolojisiz Bir Gün\" adlı sosyal sorumluluk projesi başlatıldı. Projenin çıkış noktası şöyle açıklanıyor: Teknoloji, yemek gibi bir ihtiyaç lakin yemeğin fazlasının obeziteye yol açması gibi teknolojinin fazlası da \"teknoloji bağımlılığına yol açıyor. Ekran bağımlılığı erkeklerde mobil oyun, bayanlarda sosyal medyayı kontrol etme isteğiyle ortaya çıkıyor. Ortaöğretim çağındaki bir çocuk yılda 1000 saatini okulda geçirirken 1500 saatini TV ve bilgisayar başında geçiriyor. Gençler her gün zamanlarının 229 dakikasını cep telefonu kullanarak öldürüyor. Türkiye'de bir kişi günde ortalama 6 saat TV izlerken kitap okumaya yalnızca 1 dakika ayırıyor. Bütün bunlara çözüm olarak da haftada bir gün \"teknoloji diyeti\" tavsiye ediliyor. Kadın, erkek, yaşlı, genç farklı kişilere \"Teknolojik cihazlar olmadan, bir gününüzü nasıl geçirirdiniz?\" sorusuna en fazla verilen cevap \"Kitap okurum.\" oluyor. Diğer cevaplarsa \"Çocuklarımla vakit geçiririm, oyun oynarım, yürüyüş yaparım, resim çizerim, yeni yerler keşfederim, kütüphaneye giderim...\" şeklinde sıralanıyor. Eğer siz de teknolojiyi haddinden fazla kullanıyorsanız teknoloji diyeti yaparak sevdiklerinize vakit ayırıp neler kaçırdığınızı fark edebilirsiniz.\n\nBu metindeki altı çizili cümlenin bir özelliği değildir? (Altı çizili cümle: 'Bu susturucu emzikle başlayan tanışma ileride **teknoloji bağımlılığına dönüşüyor**.')",
+      "options": [
+        "A) Eylem cümlesi",
+        "B) Olumlu cümle",
+        "C) İçinde fiilimsi bulunan cümle",
+        "D) Kurallı cümle"
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Cümle Türleri",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 2
+      }
+    },
+    {
+      "id": 9,
+      "text": "(I) İstanbul'un üstünde ne tür tarihî yapıların olduğu az çok bilinir ama altında ne var pek bilinmez. (II) Yerin altındaki yapılardan biri olan sarnıçlar yüzyıllarca kentin su ihtiyacının önemli bir kısmını karşılamış. (III) Yağmurlardan süzülen veya kentin kilometrelerce ötesinden su kanallarıyla getirilen sular buralarda depolanırmış. (IV) Sarayın, büyük kiliselerin, askerî kışlaların, soylulara ait konakların su ihtiyaçları buralardan karşılanırmış.\n\nBu metinde numaralanmış cümlelerin hangisinden sonra \"Böyle önemli yapıların su ihtiyacını karşılayan sarnıçların en meşhuru Yerebatan Sarnıcı'dır.\" cümlesi getirilirse metindeki düşünce akışı bozulmaz?",
+      "options": [
+        "A) I.",
+        "B) II.",
+        "C) III.",
+        "D) IV."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 10,
+      "text": "\"Küçük Prens'in Güzel Hikâyesi\" adlı bu nefis kitap, Antonie de Saint Exupery'nin yazdığı Küçük Prens öyküsünün tam metninin yanı sıra yayımlanmayan bir bölümünü, Küçük Prens karakterinin orijinal çizimlerini ve Küçük Prens üzerine yazılmış makaleleri içeriyor.\n\nAşağıdakilerden hangisi bu cümlede sözü edilen eserle ilgili kesin olarak söylenir?",
+      "options": [
+        "A) Kahramanın hayat hikâyesini anlattığı",
+        "B) İki bölümden oluştuğu",
+        "C) Küçük Prens'le ilgili farklı çalışmalara yer verdiği",
+        "D) Küçük Prens hakkında yapılan en kapsamlı çalışma olduğu"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 11,
+      "text": "I. Mutluluğu engelleyen şeylerden biri, çok fazla mutluluk beklemektir.\nII. Mutluluk öyle bir servettir ki bölüşüldükçe çoğalır.\nIII. Bilge ve iyi olmadıkça kimse mutlu olamaz.\nIV. İnsan en azla yetindiği zaman mutludur.\n\nYukarıdaki numaralanmış cümlelerden hangileri anlamca birbirine en yakındır?",
+      "options": [
+        "A) I ve III.",
+        "B) I ve IV.",
+        "C) II ve III.",
+        "D) II ve IV."
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 12,
+      "text": "19. yüzyılın ortasından itibaren büyük şehirlerde ulaşım sorun hâline gelmeye başlayınca ülkeler toplu taşımacılığa yönelmiştir. Bunun için bulunan çözümlerden biri de raylı taşımacılık yani metrodur. Dünyanın büyük şehirlerinde faaliyete geçen metro hatlarıyla ilgili bazı bilgiler şunlardır:\n• İstanbul Tünel Metrosu, Budapeşte Metrosu'ndan önce hizmete girmiştir.\n• Chicago (Şikago) Metrosu'ndan önce ve sonra açılan metro hatları vardır.\n• İstanbul Tünel Metrosu açıldığında sadece bir metro hattı faaliyetteydi.\n• Budapeşte Metrosu, Londra Metrosu'ndan sonra açılmıştır.\n\nBu bilgilere göre metro hatlarının hizmete girme tarihleri aşağıdakilerin hangisinde doğru verilmiştir?",
+      "options": [
+        "A) 1863: Budapeşte, 1875: İstanbul Tünel, 1892: Londra, 1896: Chicago (Şikago)",
+        "B) 1863: İstanbul Tünel, 1875: Budapeşte, 1892: Chicago (Şikago), 1896: Londra",
+        "C) 1863: Londra, 1875: İstanbul Tünel, 1892: Chicago (Şikago), 1896: Budapeşte",
+        "D) 1863: Chicago (Şikago), 1875: Londra, 1892: İstanbul Tünel, 1896: Budapeşte"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Sözel Mantık",
+        "alt_konu": "Metinler Arası İlişki Kurma",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 13,
+      "text": "Yaşadığımız dünyaya karşı taşıdığımız sorumlulukları fark etmemiz için en ideal zamanlar ilk çocukluk yıllarımız. Yere çöp atmama, ağaçların dallarını kırmama, çiçekleri koparmama gibi birçok şey bu dönemde edindirilir. Bunda en büyük pay kitaplara ait. Eğitim Uzmanı Bilge Buhan Musa, geri dönüşüm üzerine çıkardığı dört yeni hikâye kitabıyla çocuklara çevre bilinci kazandırmayı hedefliyor. Bilge Buhan Musa, doğanın nasıl korunabileceğini kitaplarında verdiği yöntemlerle somutlaştırıp çocukların bunu davranışa kolayca dönüştürebileceklerini belirtiyor. Eğitimci yazarın yayımlanan hikâye serisi, çocukların kitaptaki kahramanlarla empati kurmalarını sağlıyor ve gezegenimize karşı sorumluluklarını yerine getirmelerine aracı oluyor. Bu hikâye serisi dört farklı kitaptan oluşuyor. \"Yaşlı Çınar Ağacı\"nda kâğıdın, \"Meraklı Yeşil Şişe de camın, \"Beyaz Plastik Bardak\"ta plastiğin geri dönüşümü anlatılıyor. \"Geri Kazanım Atölyesi\"nde ise kullandığımız eşyalardan geri dönüşüme gitmeden ne şekilde faydalanabileceğimiz dile getiriliyor.\n\nBu metinden aşağıdaki yargıların hangisi çıkarılamaz?",
+      "options": [
+        "A) Doğayı korumada geri dönüşüm önemlidir.",
+        "B) Kitapların, çocukların kişilik gelişiminde etkisi vardır.",
+        "C) Olumlu davranışlar çocukken daha kolay kazandırılır.",
+        "D) İnsanlarla sağlıklı iletişimin yolu empati kurmaktır."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 14,
+      "text": "Yaşadığımız dünyaya karşı taşıdığımız sorumlulukları fark etmemiz için en ideal zamanlar ilk çocukluk yıllarımız. Yere çöp atmama, ağaçların dallarını kırmama, çiçekleri koparmama gibi birçok şey bu dönemde edindirilir. Bunda en büyük pay kitaplara ait. Eğitim Uzmanı Bilge Buhan Musa, geri dönüşüm üzerine çıkardığı dört yeni hikâye kitabıyla çocuklara çevre bilinci kazandırmayı hedefliyor. Bilge Buhan Musa, doğanın nasıl korunabileceğini kitaplarında verdiği yöntemlerle somutlaştırıp çocukların bunu davranışa kolayca dönüştürebileceklerini belirtiyor. Eğitimci yazarın yayımlanan hikâye serisi, çocukların kitaptaki kahramanlarla empati kurmalarını sağlıyor ve gezegenimize karşı sorumluluklarını yerine getirmelerine aracı oluyor. Bu hikâye serisi dört farklı kitaptan oluşuyor. \"Yaşlı Çınar Ağacı\"nda kâğıdın, \"Meraklı Yeşil Şişe de camın, \"Beyaz Plastik Bardak\"ta plastiğin geri dönüşümü anlatılıyor. \"Geri Kazanım Atölyesi\"nde ise kullandığımız eşyalardan geri dönüşüme gitmeden ne şekilde faydalanabileceğimiz dile getiriliyor.\n\nBu metne göre Bilge Buhan Musa'nın, kitaplarını yazma amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Çocuklara çevre bilinci aşılamak",
+        "B) Geri dönüşümün ekonomiye katkısı hakkında bilgi vermek",
+        "C) Ailelere çocuk eğitimi konusunda yol göstermek",
+        "D) Kitap okuma alışkanlığı kazandırmak"
+      ],
+      "answer": "A",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 2
+      }
+    },
+    {
+      "id": 15,
+      "text": "Yaşadığımız dünyaya karşı taşıdığımız sorumlulukları fark etmemiz için en ideal zamanlar ilk çocukluk yıllarımız. Yere çöp atmama, ağaçların dallarını kırmama, çiçekleri koparmama gibi birçok şey bu dönemde edindirilir. Bunda en büyük pay kitaplara ait. Eğitim Uzmanı Bilge Buhan Musa, geri dönüşüm üzerine çıkardığı dört yeni hikâye kitabıyla çocuklara çevre bilinci kazandırmayı hedefliyor. Bilge Buhan Musa, doğanın nasıl korunabileceğini kitaplarında verdiği yöntemlerle somutlaştırıp çocukların bunu davranışa kolayca dönüştürebileceklerini belirtiyor. Eğitimci yazarın yayımlanan hikâye serisi, çocukların kitaptaki kahramanlarla empati kurmalarını sağlıyor ve gezegenimize karşı sorumluluklarını yerine getirmelerine aracı oluyor. Bu hikâye serisi dört farklı kitaptan oluşuyor. \"Yaşlı Çınar Ağacı\"nda kâğıdın, \"Meraklı Yeşil Şişe de camın, \"Beyaz Plastik Bardak\"ta plastiğin geri dönüşümü anlatılıyor. \"Geri Kazanım Atölyesi\"nde ise kullandığımız eşyalardan geri dönüşüme gitmeden ne şekilde faydalanabileceğimiz dile getiriliyor.\n\nBu metindeki numaralanmış kelimelerden hangileri zarf-fiildir?",
+      "options": [
+        "A) I ve II.",
+        "B) I ve III.",
+        "C) II ve IV.",
+        "D) III ve IV."
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Dil Bilgisi",
+        "alt_konu": "Fiilimsiler",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 16,
+      "text": "1897 yılının Nisan ayı başlarında Ömer Şevki bey, oğlunu o günlerde subay çocukları için açılan Eyüp Sultan Askerî lisesinde özel bölüme yatılı olarak yerleştirir. Yeni usule göre öğretim yapılan bu okul da eğitim dili Fransızcaydı.\n\nBu metinde aşağıdakilerin hangisiyle ilgili bir yazım yanlışı yapılmamıştır?",
+      "options": [
+        "A) Kişi adlarından önce ve sonra gelen unvanlar, saygı sözleri",
+        "B) Belli bir tarih bildiren ay ve gün adları",
+        "C) Bulunma durum eki \"-da, -de\"nin yazımı",
+        "D) Kurum, kuruluş ve kurul adları"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Yazım Kuralları",
+        "alt_konu": "Belli bir tarih bildiren ay ve gün adları",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 17,
+      "text": "Aşağıdaki cümlelerin hangisinde noktalama işaretlerinin kullanımıyla ilgili bir yanlışlık yapılmıştır?",
+      "options": [
+        "A) Hey, Gebzeli Hasan! Bu çayların parasını kim ödeyecek?",
+        "B) Nükhet'in en büyük korkusu, samimi olduğu ve kendisini yanlarında huzurlu hissettiği insanlardan uzun süre ayrı kalmaktı.",
+        "C) Zeki (!) çocuk tüm parasını bir günde bitirdi, ayın geri kalanını harçlıksız geçirdi.",
+        "D) Hep beklenmedik zamanlarda gelir, planlarımı, çabalarımı boşa çıkarırdı."
+      ],
+      "answer": "D",
+      "analysis": {
+        "ana_konu": "Yazım Kuralları",
+        "alt_konu": "Noktalama İşaretleri",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 18,
+      "text": "Ben Ömer Halisdemir,\nGözlerimde göremezsiniz korkuyu.\nArkamdan söylesinler şu türküyü:\nGencecik yaşında düşmüştü şehit,\nCihan görmedi böyle bir yiğit.\nBen Ömer Halisdemir,\nBin canım daha olsa\nVeririm yine vatan uğruna.\n\nBu dizelerde aşağıdaki duygulardan hangisine yer verilmemiştir?",
+      "options": [
+        "A) Kahramanlık",
+        "B) Merhamet",
+        "C) Cesaret",
+        "D) Vatan sevgisi"
+      ],
+      "answer": "B",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 19,
+      "text": "1950'li yılların başında istasyon, bir mola yeri olmaktan ziyade hayatın aktığı yerdi bizim kasabada. Kasabanın gençleri istasyonda buluşur, kalabalıkta kendilerini unuttururdu. Filmlerdeki gibi, gençler ilk kez burada göz göze gelirdi. İlk ayrılık burada yaşanır, askerlik veya çalışmak için büyük şehre gidenlerin ardından gözyaşı ilk kez burada dökülürdü. Ayrılığın acısı kadar buluşmanın sevinci de istasyondu. Ben de tezkere alıp gelen ağabeyimi burada beklemiştim. İki gün boyunca istasyona her gelen trende gözlerim ağabeyimi aramıştı. Nihayet ağabeyim trenden indiğinde boynuna sarılmış, dakikalarca ağlamıştım.\n\nBu parça aşağıdaki metin türlerinin hangisinden alınmıştır?",
+      "options": [
+        "A) Biyografi",
+        "B) Deneme",
+        "C) Anı",
+        "D) Gezi yazısı"
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    },
+    {
+      "id": 20,
+      "text": "(I) Başınız ağrıyorsa \"Kendinizi hangi konuda yargılıyorsunuz, uğraşıp baş edemediğiniz düşünceleriniz nelerdir?\" sorularının cevabını bulmalısınız. Baş ağrılarının çoğu kendini acımasızca eleştirme, öz güven kayıpları ve kişinin, yaptığı her şeyi değersiz görmesiyle ilgilidir.\n(II) Migren türü baş ağrısı kendine ve her şeye kızan, oldukça mükemmeliyetçi olan, kendilerine acımasızca baskı yapan kişiler tarafından yaratılır. Migrende, yoğun olarak bastırılmış kızgınlık vardır.\n(III) Boyun fıtığı ve ağrıları; düşüncelerimizde esnek olmamak, yaşadığımız sorunların öteki yüzünü görememek, başka bir kişinin bakış açısını anlayamamaktan kaynaklanır.\n\nBu üç metinden çıkarılabilecek ortak sonuç aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Vücuttaki ağrıların temel nedeni öfke duygusunun bastırılmasıdır.",
+        "B) İyi bir dinlenme, stresin neden olduğu tüm hastalıklardan kurtulabileceğimiz ideal bir süreçtir.",
+        "C) Olumsuz duygu, düşünce ve tutumlar bazı hastalıklara yol açar.",
+        "D) Her şeyi en iyi şekilde yapma çabası vücut sağlığını tehdit eder."
+      ],
+      "answer": "C",
+      "analysis": {
+        "ana_konu": "Paragrafta Anlam",
+        "alt_konu": "Ana Düşünce",
+        "kazanim": "Çıkarım Yapma",
+        "tahmini_zorluk": 3
+      }
+    }
+  ]
+}
