@@ -1,0 +1,86 @@
+{
+  "date": "2025-12-07 23:54:50",
+  "total_samples": 160,
+  "accuracy": 0.65625,
+  "algorithm": "RandomForestClassifier",
+  "classes": [
+    "Cümle Türleri",
+    "Dil Bilgisi",
+    "Fiilimsiler",
+    "Grafik Yorumlama",
+    "Paragrafta Anlam",
+    "Söz Sanatları",
+    "Sözcükte Anlam",
+    "Sözel Mantık",
+    "Yazım Kuralları"
+  ],
+  "detailed_report": {
+    "Cümle Türleri": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Dil Bilgisi": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "Fiilimsiler": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Grafik Yorumlama": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Paragrafta Anlam": {
+      "precision": 0.625,
+      "recall": 0.9375,
+      "f1-score": 0.75,
+      "support": 16.0
+    },
+    "Söz Sanatları": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Sözcükte Anlam": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4,
+      "support": 3.0
+    },
+    "Sözel Mantık": {
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1-score": 0.2857142857142857,
+      "support": 5.0
+    },
+    "Yazım Kuralları": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "accuracy": 0.65625,
+    "macro avg": {
+      "precision": 0.5138888888888888,
+      "recall": 0.3300925925925926,
+      "f1-score": 0.37804232804232807,
+      "support": 32.0
+    },
+    "weighted avg": {
+      "precision": 0.6875,
+      "recall": 0.65625,
+      "f1-score": 0.6206845238095238,
+      "support": 32.0
+    }
+  }
+}
