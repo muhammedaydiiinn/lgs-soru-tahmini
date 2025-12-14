@@ -191,12 +191,24 @@ class GenerateQuestionAPIView(APIView):
             
         except ValueError as e:
             return Response(
-                {"error": str(e)},
+                {
+                    "error": str(e),
+                    "error_type": "validation_error",
+                    "message": "Geçersiz parametreler gönderildi."
+                },
                 status=status.HTTP_400_BAD_REQUEST
             )
         except Exception as e:
+            import traceback
+            error_trace = traceback.format_exc()
+            print(f"Soru üretme hatası: {error_trace}")
             return Response(
-                {"error": f"Soru üretilirken bir hata oluştu: {str(e)}"},
+                {
+                    "error": "Soru üretilirken bir hata oluştu.",
+                    "error_type": "server_error",
+                    "message": str(e),
+                    "details": "Lütfen daha sonra tekrar deneyin veya destek ekibiyle iletişime geçin."
+                },
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
 

@@ -13,9 +13,20 @@ class DataService:
     """
     
     def __init__(self):
-        # CSV dosya yolu
+        # CSV dosya yolu - Docker'da /app/data, local'de backend/data
         base_dir = Path(__file__).parent.parent.parent
-        self.csv_path = base_dir / 'data' / 'lgs_full_data.csv'
+        # Önce Docker path'i dene, yoksa local path'i kullan
+        docker_path = Path('/app/data/lgs_full_data.csv')
+        local_path = base_dir / 'data' / 'lgs_full_data.csv'
+        
+        if docker_path.exists():
+            self.csv_path = docker_path
+        elif local_path.exists():
+            self.csv_path = local_path
+        else:
+            # Varsayılan olarak local path kullan (hata mesajı için)
+            self.csv_path = local_path
+        
         self._df = None
     
     def _load_data(self):

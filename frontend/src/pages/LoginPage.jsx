@@ -22,8 +22,17 @@ const LoginPage = () => {
       await login(formData.username, formData.password);
       navigate('/dashboard');
     } catch (err) {
-      console.error(err);
-      setError('Giriş başarısız. Kullanıcı adı veya şifre hatalı.');
+      console.error('Login error:', err);
+      if (err.response) {
+        // Backend'den gelen hata mesajını göster
+        const errorMsg = err.response.data?.non_field_errors?.[0] || 
+                        err.response.data?.detail || 
+                        err.response.data?.error ||
+                        'Giriş başarısız. Kullanıcı adı veya şifre hatalı.';
+        setError(errorMsg);
+      } else {
+        setError('Giriş başarısız. Kullanıcı adı veya şifre hatalı.');
+      }
     } finally {
       setLoading(false);
     }

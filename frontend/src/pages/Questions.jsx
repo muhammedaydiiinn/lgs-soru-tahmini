@@ -49,9 +49,12 @@ const Questions = () => {
     }
   };
 
+  const [error, setError] = useState(null);
+
   const handleGenerateQuestion = async (topicName) => {
     try {
       setGenerating(true);
+      setError(null);
       const data = await generateQuestion(topicName, 'medium', true);
       if (data.question) {
         await fetchQuestions();
@@ -63,7 +66,11 @@ const Questions = () => {
       }
     } catch (error) {
       console.error("Soru üretilirken hata:", error);
-      alert("Soru üretilirken bir hata oluştu. Lütfen tekrar deneyin.");
+      const errorMessage = error.response?.data?.message || 
+                          error.response?.data?.error || 
+                          error.response?.data?.details ||
+                          "Soru üretilirken bir hata oluştu. Lütfen tekrar deneyin.";
+      setError(errorMessage);
     } finally {
       setGenerating(false);
     }
@@ -109,6 +116,25 @@ const Questions = () => {
           Dashboard'a Dön
         </button>
       </div>
+
+      {/* Error Alert */}
+      {error && (
+        <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg mb-4">
+          <div className="flex items-start">
+            <XCircle className="text-red-500 mr-3 mt-0.5 flex-shrink-0" size={20} />
+            <div className="flex-1">
+              <h3 className="text-red-800 font-semibold mb-1">Hata Oluştu</h3>
+              <p className="text-red-700 text-sm">{error}</p>
+            </div>
+            <button
+              onClick={() => setError(null)}
+              className="text-red-500 hover:text-red-700 ml-4"
+            >
+              <XCircle size={20} />
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Sol Panel - Soru Listesi ve Filtreler */}

@@ -159,26 +159,40 @@ class QuestionGenerator:
         # LLM ile soru üret
         if use_llm:
             try:
-                # Örnek soruları getir
-                example_questions = self.data_service.get_example_questions(
-                    topic_name=topic_name,
-                    limit=3
-                )
+                print(f"[LLM] Soru üretimi başlatılıyor - Konu: {topic_name}, Zorluk: {difficulty}")
+                
+                # Örnek soruları getir (opsiyonel - hata olursa devam et)
+                example_questions = []
+                try:
+                    example_questions = self.data_service.get_example_questions(
+                        topic_name=topic_name,
+                        limit=3
+                    )
+                    print(f"[LLM] {len(example_questions)} örnek soru bulundu")
+                except Exception as e:
+                    print(f"[LLM] Örnek soru alma hatası (devam ediliyor): {e}")
+                    # Örnek soru olmadan da devam et
                 
                 # Alt konu belirle
-                subtopics = self.data_service.get_subtopics(topic_name)
-                subtopic = random.choice(subtopics) if subtopics else "Genel"
+                subtopic = "Genel"
+                try:
+                    subtopics = self.data_service.get_subtopics(topic_name)
+                    subtopic = random.choice(subtopics) if subtopics else "Genel"
+                except:
+                    pass
                 
                 # LLM ile soru üret
+                print(f"[LLM] LLM servisine istek gönderiliyor...")
                 llm_result = self.llm_service.generate_question_with_context(
                     topic_name=topic_name,
                     subtopic=subtopic,
                     current_event=current_event,
-                    example_questions=example_questions,
+                    example_questions=example_questions if example_questions else None,
                     difficulty=difficulty
                 )
                 
                 if llm_result:
+                    print(f"[LLM] Soru başarıyla üretildi!")
                     return {
                         "subject": "Türkçe",
                         "topic_name": topic_name,
@@ -192,16 +206,74 @@ class QuestionGenerator:
                         "current_event_context": current_event.get('description', '') if current_event else '',
                         "explanation": llm_result.get('explanation', '')
                     }
+                else:
+                    print(f"[LLM] LLM'den yanıt alınamadı, fallback'e geçiliyor")
             except Exception as e:
-                print(f"LLM soru üretimi hatası: {e}")
+                # Hata detaylarını logla
+                import traceback
+                error_details = traceback.format_exc()
+                print(f"[LLM] Soru üretimi hatası: {e}")
+                print(f"[LLM] Detaylar: {error_details}")
                 # Hata durumunda şablon yöntemine geç
         
         # Fallback: Şablon yöntemi
         return self._generate_question_with_template(topic_name, difficulty, current_event)
     
     def _generate_question_with_template(self, topic_name: str, difficulty: str, current_event: Optional[Dict]) -> Dict:
-        """Şablon yöntemiyle soru üret (fallback)"""
-        # Konu bilgilerini al
+        """Şablon yöntemiyle soru üret (fallback) - Mevcut verilerden örnek kullan"""
+        # Önce mevcut verilerden örnek soru almayı dene
+        try:
+            example_questions = self.data_service.get_example_questions(
+                topic_name=topic_name,
+                limit=1
+            )
+            
+            if example_questions:
+                # Mevcut sorudan yeni bir soru oluştur (güncel olaylarla birleştir)
+                example = example_questions[0]
+                
+                # Güncel olayı soruya entegre et
+                question_text = example.get('Soru_Metni', '')
+                if current_event:
+                    # Güncel olayı soru metnine ekle
+                    event_desc = current_event.get('description', '')[:100]
+                    if event_desc:
+                        question_text = f"{event_desc}\n\n{question_text}"
+                
+                # Şıkları mevcut sorudan al, gerekirse güncelle
+                options = [
+                    example.get('Secenek_A', ''),
+                    example.get('Secenek_B', ''),
+                    example.get('Secenek_C', ''),
+                    example.get('Secenek_D', '')
+                ]
+                
+                # Eğer şıklar boşsa, varsayılan şıkları kullan
+                if not all(options):
+                    options, correct_answer = self._generate_options_for_turkish(
+                        "default", topic_name, question_text, "", difficulty
+                    )
+                else:
+                    correct_answer = example.get('Dogru_Cevap', 'A')
+                
+                return {
+                    "subject": "Türkçe",
+                    "topic_name": topic_name,
+                    "question_text": question_text,
+                    "option_a": options[0],
+                    "option_b": options[1],
+                    "option_c": options[2],
+                    "option_d": options[3],
+                    "correct_answer": correct_answer,
+                    "difficulty": difficulty,
+                    "current_event_context": current_event.get('description', '') if current_event else '',
+                    "explanation": self._generate_explanation(topic_name, correct_answer)
+                }
+        except Exception as e:
+            print(f"Mevcut verilerden soru alma hatası: {e}")
+            # Hata durumunda şablon yöntemine devam et
+        
+        # Şablon yöntemi (fallback)
         topic_data = self.turkish_topics.get(topic_name)
         if not topic_data:
             raise ValueError(f"Desteklenmeyen konu: {topic_name}. Desteklenen konular: {', '.join(self.turkish_topics.keys())}")
@@ -368,15 +440,80 @@ class QuestionGenerator:
             ]
             correct_answer = random.choice(["A", "B", "C", "D"])
         
+        elif pattern == "fiilimsi":
+            # Fiilimsiler için gerçek örnek cümleler
+            # Önce mevcut verilerden örnek almayı dene
+            try:
+                example_questions = self.data_service.get_example_questions("Fiilimsiler", limit=5)
+                if example_questions:
+                    # Mevcut sorulardan şıkları al
+                    ex = random.choice(example_questions)
+                    options = [
+                        ex.get('Secenek_A', ''),
+                        ex.get('Secenek_B', ''),
+                        ex.get('Secenek_C', ''),
+                        ex.get('Secenek_D', '')
+                    ]
+                    # Eğer şıklar boşsa varsayılan kullan
+                    if not all(options):
+                        raise ValueError("Şıklar boş")
+                    correct_answer = ex.get('Dogru_Cevap', 'A')
+                else:
+                    raise ValueError("Örnek soru bulunamadı")
+            except:
+                # Varsayılan fiilimsi örnekleri (güncel olaylarla)
+                if event_description:
+                    event_short = event_description[:50]
+                    options = [
+                        f"Türkiye'de {event_short}... Bu gelişmelerin eğitim alanında kullanılması önemlidir.",
+                        f"Öğrenciler, {event_short}... konusunu öğrenerek geleceğe hazırlanıyor.",
+                        f"Eğitim sisteminde {event_short}... öğrencilerin başarısını artırıyor.",
+                        f"Yapay zeka destekli araçlar, {event_short}... öğrenme sürecini kolaylaştırıyor."
+                    ]
+                else:
+                    # Varsayılan fiilimsi örnekleri
+                    options = [
+                        "Türkiye'de yapay zeka teknolojilerinin eğitim alanında kullanılması artıyor.",
+                        "Öğrenciler, yeni teknolojileri öğrenerek geleceğe hazırlanıyor.",
+                        "Eğitim sisteminde dijitalleşme, öğrencilerin başarısını artırıyor.",
+                        "Yapay zeka destekli eğitim araçları, öğrenme sürecini kolaylaştırıyor."
+                    ]
+                # İlk cümlede "kullanılması" isim-fiil var
+                correct_answer = "A"
+        
         else:
-            # Varsayılan şıklar
-            options = [
-                "Seçenek A",
-                "Seçenek B",
-                "Seçenek C",
-                "Seçenek D"
-            ]
-            correct_answer = "A"
+            # Varsayılan şıklar - mevcut verilerden örnek almayı dene
+            try:
+                # Önce aynı konudan örnek al
+                example_questions = self.data_service.get_example_questions(topic_name, limit=5)
+                if not example_questions:
+                    # Konu bulunamazsa genel örnek al
+                    example_questions = self.data_service.get_example_questions("Paragrafta Anlam", limit=5)
+                
+                if example_questions:
+                    ex = random.choice(example_questions)
+                    options = [
+                        ex.get('Secenek_A', ''),
+                        ex.get('Secenek_B', ''),
+                        ex.get('Secenek_C', ''),
+                        ex.get('Secenek_D', '')
+                    ]
+                    # Eğer şıklar boşsa hata fırlat
+                    if not all(options):
+                        raise ValueError("Şıklar boş")
+                    correct_answer = ex.get('Dogru_Cevap', 'A')
+                else:
+                    raise ValueError("Örnek soru bulunamadı")
+            except Exception as e:
+                print(f"Örnek soru alma hatası: {e}")
+                # Son çare: Varsayılan şıklar
+                options = [
+                    "Seçenek A",
+                    "Seçenek B",
+                    "Seçenek C",
+                    "Seçenek D"
+                ]
+                correct_answer = "A"
         
         # Şıkları karıştır (doğru cevabı koru)
         correct_option = options[ord(correct_answer) - ord('A')]
