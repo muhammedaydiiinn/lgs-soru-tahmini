@@ -84,23 +84,33 @@ WSGI_APPLICATION = 'lgs_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-# Note: For MongoDB with Django 5+, direct ORM support is limited.
-# We keep SQLite for auth/admin (relational data) and use PyMongo for prediction logs if needed.
-# OR if you really want to replace SQLite, you need a bridge like 'djongo' (older Django) 
-# or just use SQLite for metadata and Mongo for heavy data.
-# For this task, we will stick to SQLite for stability but I've installed pymongo 
-# and here is how you WOULD configure it if using a compatible engine.
+# PostgreSQL kullanıyoruz (Docker ile)
+# SQLite sadece development için fallback olarak kullanılabilir
+DATABASE_URL = os.getenv('DATABASE_URL', '')
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if DATABASE_URL:
+    # PostgreSQL (Production/Docker)
+    import dj_database_url
+    DATABASES = {
+        'default': dj_database_url.parse(DATABASE_URL)
     }
-}
+else:
+    # SQLite (Development fallback)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 # Example MongoDB Configuration (if using pymongo directly in views)
 MONGODB_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017/')
 MONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'lgs_tahmin_db')
+
+# LLM Configuration
+LLM_API_URL = os.getenv('LLM_API_URL', 'http://localhost:1234/v1')
+LLM_MODEL = os.getenv('LLM_MODEL', '')
+LLM_TIMEOUT = int(os.getenv('LLM_TIMEOUT', '60'))
 
 
 # Password validation
@@ -149,6 +159,9 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = False  # Production'da False olmalı
 
 # REST Framework Configuration
 REST_FRAMEWORK = {

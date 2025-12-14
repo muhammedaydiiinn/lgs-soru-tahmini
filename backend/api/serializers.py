@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
-from model_service.models import TopicAnalysis
+from model_service.models import TopicAnalysis, Question
 
 User = get_user_model()
 
@@ -30,3 +30,11 @@ class TopicAnalysisSerializer(serializers.ModelSerializer):
     class Meta:
         model = TopicAnalysis
         fields = ('id', 'subject', 'topic_name', 'relevance_score', 'user_proficiency', 'recommendation', 'created_at')
+
+class QuestionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Question
+        fields = ('id', 'subject', 'topic_name', 'question_text', 'option_a', 'option_b', 
+                 'option_c', 'option_d', 'correct_answer', 'difficulty', 'current_event_context', 
+                 'explanation', 'created_at')
+        read_only_fields = ('id', 'created_at')

@@ -1,0 +1,47 @@
+{
+  "cached_at": "2025-12-14T16:24:31.244559",
+  "events": [
+    {
+      "title": "Türkiye'de Yapay Zeka ve Dijital Dönüşüm",
+      "description": "Türkiye'de yapay zeka teknolojilerinin eğitim ve endüstri alanlarında kullanımı artıyor.",
+      "published_at": "2025-11-14T16:24:31.244488",
+      "source": "Manuel",
+      "category": "Teknoloji"
+    },
+    {
+      "title": "İklim Değişikliği ve Çevre Politikaları",
+      "description": "Türkiye'de sürdürülebilir enerji ve çevre koruma çalışmaları hız kazanıyor.",
+      "published_at": "2025-10-15T16:24:31.244537",
+      "source": "Manuel",
+      "category": "Çevre"
+    },
+    {
+      "title": "Eğitimde Dijitalleşme ve Uzaktan Eğitim",
+      "description": "Eğitim sisteminde dijital araçların kullanımı ve öğrenci başarısı üzerindeki etkileri.",
+      "published_at": "2025-09-15T16:24:31.244541",
+      "source": "Manuel",
+      "category": "Eğitim"
+    },
+    {
+      "title": "Türkiye'nin Ekonomik Büyümesi ve Kalkınma",
+      "description": "Türkiye'nin ekonomik göstergeleri ve kalkınma projeleri hakkında güncel gelişmeler.",
+      "published_at": "2025-08-16T16:24:31.244546",
+      "source": "Manuel",
+      "category": "Ekonomi"
+    },
+    {
+      "title": "Kültürel Miras ve Tarih Koruma Çalışmaları",
+      "description": "Türkiye'deki tarihi eserlerin korunması ve kültürel mirasın gelecek nesillere aktarılması.",
+      "published_at": "2025-07-17T16:24:31.244549",
+      "source": "Manuel",
+      "category": "Kültür"
+    },
+    {
+      "title": "Sağlık Sisteminde Yenilikler",
+      "description": "Türkiye'de sağlık hizmetlerinde dijitalleşme ve hasta bakım kalitesinin artırılması.",
+      "published_at": "2025-06-17T16:24:31.244552",
+      "source": "Manuel",
+      "category": "Sağlık"
+    }
+  ]
+}

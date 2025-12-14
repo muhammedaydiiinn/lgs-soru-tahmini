@@ -1,0 +1,74 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: lgs_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data
+      - ./model:/app/model
+    environment:
+      - DEBUG=True
+      - SECRET_KEY=${SECRET_KEY:-django-insecure-dev-key}
+      - DATABASE_URL=postgresql://lgs_user:lgs_password@db:5432/lgs_db
+      - LLM_API_URL=${LLM_API_URL:-http://host.docker.internal:1234/v1}
+      - LLM_MODEL=${LLM_MODEL:-}
+      - LLM_TIMEOUT=${LLM_TIMEOUT:-60}
+      - NEWS_API_KEY=${NEWS_API_KEY:-}
+      - MONGODB_URI=${MONGODB_URI:-mongodb://localhost:27017/}
+      - MONGODB_DB_NAME=${MONGODB_DB_NAME:-lgs_tahmin_db}
+    env_file:
+      - .env
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    depends_on:
+      - db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - lgs_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: lgs_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=${VITE_API_URL:-http://localhost:8000/api}
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+    networks:
+      - lgs_network
+
+  db:
+    image: postgres:15-alpine
+    container_name: lgs_db
+    environment:
+      - POSTGRES_DB=lgs_db
+      - POSTGRES_USER=lgs_user
+      - POSTGRES_PASSWORD=lgs_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - lgs_network
+
+volumes:
+  postgres_data:
+
+networks:
+  lgs_network:
+    driver: bridge
+

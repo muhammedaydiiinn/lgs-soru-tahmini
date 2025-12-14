@@ -10,7 +10,7 @@ const Prediction = () => {
   const [error, setError] = useState(null);
 
   const subjects = [
-    "Matematik", "Fen Bilimleri", "Türkçe", "İnkılap Tarihi", "İngilizce", "Din Kültürü"
+    "Türkçe"
   ];
 
   const handleAnalysis = async () => {
@@ -32,9 +32,9 @@ const Prediction = () => {
   return (
     <div className="max-w-3xl mx-auto space-y-8">
       <div className="text-center space-y-2">
-        <h1 className="text-3xl font-bold text-gray-900">Yeni Konu Analizi Başlat</h1>
+        <h1 className="text-3xl font-bold text-gray-900">Türkçe Konu Analizi</h1>
         <p className="text-gray-500">
-          Yapay zeka destekli sistemimiz, seçtiğin ders için en stratejik çalışma alanını belirlesin.
+          Yapay zeka destekli sistemimiz, Türkçe dersi için en stratejik çalışma alanını belirlesin.
         </p>
       </div>
 

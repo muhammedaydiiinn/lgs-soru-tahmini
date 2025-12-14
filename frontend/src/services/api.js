@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
 
 const api = axios.create({
   baseURL: API_URL,
@@ -48,6 +48,40 @@ export const getDashboardStats = async () => {
 
 export const analyzeTopic = async (subject) => {
   const response = await api.post('/analyze/', { subject });
+  return response.data;
+};
+
+export const generateQuestion = async (topicName, difficulty = 'medium', includeCurrentEvent = true) => {
+  const response = await api.post('/questions/generate/', {
+    subject: 'Türkçe',
+    topic_name: topicName,
+    difficulty,
+    include_current_event: includeCurrentEvent
+  });
+  return response.data;
+};
+
+export const getQuestions = async (filters = {}) => {
+  const params = new URLSearchParams();
+  if (filters.subject) params.append('subject', filters.subject);
+  if (filters.topic_name) params.append('topic_name', filters.topic_name);
+  if (filters.difficulty) params.append('difficulty', filters.difficulty);
+  
+  const response = await api.get(`/questions/?${params.toString()}`);
+  return response.data;
+};
+
+export const getQuestionDetail = async (questionId) => {
+  const response = await api.get(`/questions/${questionId}/`);
+  return response.data;
+};
+
+export const generateQuestionsFromTopic = async (topicAnalysisId, count = 5, difficulty = 'medium') => {
+  const response = await api.post('/questions/generate-from-topic/', {
+    topic_analysis_id: topicAnalysisId,
+    count,
+    difficulty
+  });
   return response.data;
 };
 

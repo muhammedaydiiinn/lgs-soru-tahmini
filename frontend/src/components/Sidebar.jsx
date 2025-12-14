@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Sparkles, History, Settings, BookOpen } from 'lucide-react';
+import { LayoutDashboard, Sparkles, History, Settings, BookOpen, FileQuestion } from 'lucide-react';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -8,6 +8,7 @@ const Sidebar = () => {
   const menuItems = [
     { icon: LayoutDashboard, label: 'Dashboard', path: '/dashboard' },
     { icon: Sparkles, label: 'Tahmin Yap', path: '/dashboard/predict' },
+    { icon: FileQuestion, label: 'Sorular', path: '/dashboard/questions' },
     { icon: History, label: 'Geçmiş Tahminler', path: '/dashboard/history' },
     { icon: Settings, label: 'Ayarlar', path: '/dashboard/settings' },
   ];
@@ -50,4 +51,5 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
 

@@ -64,13 +64,22 @@ const Dashboard = () => {
             <h1 className="text-3xl font-bold text-gray-900">Hoş Geldiniz, {user?.username || 'Öğrenci'}!</h1>
             <p className="text-gray-500 mt-2">Bugün hangi derse odaklanmak istersin?</p>
         </div>
-        <button 
-            onClick={() => navigate('/dashboard/predict')}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 shadow-md transition-all w-full md:w-auto justify-center"
-        >
-            <Plus size={20} />
-            Yeni Konu Analizi Başlat
-        </button>
+        <div className="flex gap-3 w-full md:w-auto">
+          <button 
+              onClick={() => navigate('/dashboard/predict')}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 shadow-md transition-all flex-1 md:flex-none justify-center"
+          >
+              <Plus size={20} />
+              Yeni Konu Analizi
+          </button>
+          <button 
+              onClick={() => navigate('/dashboard/questions')}
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 shadow-md transition-all flex-1 md:flex-none justify-center"
+          >
+              <BookOpen size={20} />
+              Sorular
+          </button>
+        </div>
       </div>
 
       {/* Stats Grid */}
@@ -117,7 +126,11 @@ const Dashboard = () => {
                                 </td>
                                 <td className="px-6 py-4 text-gray-400">{new Date(item.created_at).toLocaleDateString('tr-TR')}</td>
                                 <td className="px-6 py-4 text-right">
-                                    <button className="text-gray-400 hover:text-blue-600 p-1 rounded-full hover:bg-blue-50 transition-all">
+                                    <button 
+                                        onClick={() => navigate(`/dashboard/questions?topic=${encodeURIComponent(item.topic_name)}`)}
+                                        className="text-gray-400 hover:text-blue-600 p-1 rounded-full hover:bg-blue-50 transition-all"
+                                        title="Bu konudan soru üret"
+                                    >
                                         <ArrowRight size={18} />
                                     </button>
                                 </td>

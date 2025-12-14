@@ -58,7 +58,180 @@ Güncellenecek
 ---
 
 ## Kullanılan Teknolojiler
-Güncellenecek
+
+### Backend
+- **Django 5.2.8** - Web framework
+- **Django REST Framework** - API geliştirme
+- **PostgreSQL** - Veritabanı (Docker)
+- **Pandas** - Veri işleme
+- **Requests** - HTTP istekleri (LLM, News API)
+
+### Frontend
+- **React** - UI framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Axios** - HTTP client
+
+### AI/ML
+- **LLM (Local)** - Soru üretimi için (http://localhost:1234/v1)
+- **News API** - Güncel olaylar için
+
+### DevOps
+- **Docker** - Containerization
+- **Docker Compose** - Multi-container orchestration
+
+---
+
+## Hızlı Başlangıç
+
+### Docker ile Kurulum
+
+1. **Gereksinimler:**
+   - Docker ve Docker Compose yüklü olmalı
+   - LLM servisi çalışıyor olmalı (http://localhost:1234/v1)
+
+2. **Kurulum:**
+   ```bash
+   # .env dosyasını oluştur
+   cp .env.example .env
+   # .env dosyasını düzenle (LLM_API_URL, NEWS_API_KEY vb.)
+   
+   # Docker ile başlat
+   docker-compose up -d
+   
+   # Migration'ları çalıştır
+   docker-compose exec backend python manage.py migrate
+   
+   # Superuser oluştur
+   docker-compose exec backend python manage.py createsuperuser
+   ```
+
+3. **Erişim:**
+   - Backend API: http://localhost:8000
+   - Frontend: http://localhost:5173
+   - Admin Panel: http://localhost:8000/admin
+
+### Manuel Kurulum
+
+1. **Backend:**
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+   ```
+
+2. **Frontend:**
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+
+---
+
+## Özellikler
+
+### ✅ Tamamlanan Özellikler
+
+1. **Konu Analizi ve Tahmin**
+   - Geçmiş yıllara ait LGS sorularını analiz eder
+   - 2026 için konu tahminleri yapar
+   - Kullanıcı bazlı konu analizi
+
+2. **LLM ile Soru Üretimi**
+   - Mevcut verilerden örnek sorular alır
+   - LLM ile yeni sorular üretir
+   - Güncel olayları sorulara entegre eder
+   - Türkçe LGS formatına uygun sorular
+
+3. **Güncel Olay Entegrasyonu**
+   - Son 6 aydaki Türkiye güncel olaylarını çeker
+   - Sorulara güncel bağlam ekler
+   - News API veya manuel veri kaynağı
+
+4. **Soru Çözme Arayüzü**
+   - Soru listesi ve filtreleme
+   - İnteraktif soru çözme
+   - Doğru/yanlış gösterimi
+   - Çözüm açıklamaları
+
+5. **Docker Yapısı**
+   - Backend, Frontend ve Database container'ları
+   - Kolay kurulum ve deployment
+   - Development ve production ortamları
+
+---
+
+## Yapılandırma
+
+### Environment Variables (.env)
+
+```env
+# Django
+SECRET_KEY=your-secret-key
+DEBUG=True
+
+# LLM
+LLM_API_URL=http://localhost:1234/v1
+LLM_MODEL=llama3.2
+LLM_TIMEOUT=60
+
+# News API
+NEWS_API_KEY=your-news-api-key
+
+# Database (Docker için)
+POSTGRES_DB=lgs_db
+POSTGRES_USER=lgs_user
+POSTGRES_PASSWORD=lgs_password
+```
+
+---
+
+## API Endpoints
+
+### Authentication
+- `POST /api/register/` - Kullanıcı kaydı
+- `POST /api/login/` - Giriş yap
+
+### Analysis
+- `POST /api/analyze/` - Konu analizi yap
+- `GET /api/dashboard-stats/` - Dashboard istatistikleri
+
+### Questions
+- `POST /api/questions/generate/` - Soru üret
+- `GET /api/questions/` - Soru listesi
+- `GET /api/questions/<id>/` - Soru detayı
+- `POST /api/questions/generate-from-topic/` - Konu analizinden soru üret
+
+---
+
+## Docker Komutları
+
+```bash
+# Servisleri başlat
+make up
+# veya
+docker-compose up -d
+
+# Logları görüntüle
+make logs
+# veya
+docker-compose logs -f
+
+# Migration çalıştır
+make migrate
+
+# Backend shell
+make shell
+
+# Servisleri durdur
+make down
+```
+
+Detaylı Docker dokümantasyonu için: [README_DOCKER.md](README_DOCKER.md)
+
 ---
 
 ## Proje Aşamaları
