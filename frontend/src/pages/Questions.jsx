@@ -11,6 +11,7 @@ const Questions = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [generating, setGenerating] = useState(false);
+  const [generatingTopic, setGeneratingTopic] = useState(null);
   const [filters, setFilters] = useState({
     topic_name: '',
     difficulty: ''
@@ -54,6 +55,7 @@ const Questions = () => {
   const handleGenerateQuestion = async (topicName) => {
     try {
       setGenerating(true);
+      setGeneratingTopic(topicName);
       setError(null);
       const data = await generateQuestion(topicName, 'medium', true);
       if (data.question) {
@@ -73,6 +75,7 @@ const Questions = () => {
       setError(errorMessage);
     } finally {
       setGenerating(false);
+      setGeneratingTopic(null);
     }
   };
 
@@ -116,6 +119,21 @@ const Questions = () => {
           Dashboard'a Dön
         </button>
       </div>
+
+      {/* Generating Alert */}
+      {generating && (
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-lg mb-4 animate-pulse">
+          <div className="flex items-center">
+            <Loader2 className="animate-spin text-blue-600 mr-3 flex-shrink-0" size={20} />
+            <div className="flex-1">
+              <h3 className="text-blue-800 font-semibold mb-1">Soru Üretiliyor...</h3>
+              <p className="text-blue-700 text-sm">
+                {generatingTopic ? `"${generatingTopic}" konusu için soru oluşturuluyor. Lütfen bekleyin...` : "Soru oluşturuluyor. Lütfen bekleyin..."}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Error Alert */}
       {error && (
@@ -183,10 +201,19 @@ const Questions = () => {
                   key={topic}
                   onClick={() => handleGenerateQuestion(topic)}
                   disabled={generating}
-                  className="w-full text-left px-3 py-2 text-sm bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                  className="w-full text-left px-3 py-2 text-sm bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 relative"
                 >
-                  <Plus size={16} />
-                  {topic}
+                  {generating && generatingTopic === topic ? (
+                    <>
+                      <Loader2 className="animate-spin" size={16} />
+                      <span>Üretiliyor...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Plus size={16} />
+                      <span>{topic}</span>
+                    </>
+                  )}
                 </button>
               ))}
             </div>
@@ -240,7 +267,21 @@ const Questions = () => {
 
         {/* Sağ Panel - Soru Detayı */}
         <div className="lg:col-span-2">
-          {selectedQuestion ? (
+          {generating && !selectedQuestion ? (
+            <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-12">
+              <div className="flex flex-col items-center justify-center text-center">
+                <Loader2 className="animate-spin text-blue-600 mb-4" size={48} />
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Soru Üretiliyor</h3>
+                <p className="text-gray-600 mb-4">
+                  {generatingTopic ? `"${generatingTopic}" konusu için soru oluşturuluyor...` : "Soru oluşturuluyor..."}
+                </p>
+                <div className="w-full max-w-md bg-gray-200 rounded-full h-2">
+                  <div className="bg-blue-600 h-2 rounded-full animate-pulse" style={{ width: '60%' }}></div>
+                </div>
+                <p className="text-sm text-gray-500 mt-4">Bu işlem birkaç saniye sürebilir...</p>
+              </div>
+            </div>
+          ) : selectedQuestion ? (
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 space-y-6">
               {/* Soru Başlığı */}
               <div className="flex items-start justify-between">
